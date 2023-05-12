@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeScreen from '../../Components/HomeScreen';
+import HomeScreen from '../Components/HomeScreen';
 
 const index = () => {
   return (
