@@ -1,0 +1,22 @@
+.allTodoData h2 {
+
+    color: #053D38;
+    font-weight: 400;
+    font-size: 34px;
+    font-size: normal;
+
+}
+
+.allTodoData {
+    margin-top: '200px';
+    margin-left: '500px';
+
+
+}
+
+.allTodoData p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #053D38;
+    ;
+}

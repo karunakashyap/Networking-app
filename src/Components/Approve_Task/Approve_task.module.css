@@ -1,0 +1,18 @@
+.approveTaskData h2 {
+    color: #053D38;
+    font-weight: 400;
+    font-size: 34px;
+    font-size: normal;
+
+}
+
+.approveTaskData {
+    margin-left: '900px';
+    margin-top: '-196px'
+}
+
+.approveTaskData p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #053D38;
+}
