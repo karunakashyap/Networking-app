@@ -5,7 +5,6 @@ import Globalstyle from '../../app/Globalstyle';
 const Sidebar = () => {
     console.log(styles)
     return (
-
         <div>
             <Globalstyle></Globalstyle>
             <div className={styles.sidebar}>
