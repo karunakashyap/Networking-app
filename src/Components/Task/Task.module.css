@@ -6,7 +6,8 @@
 .allTask p {
     font-weight: 400;
     font-size: 14px;
-    color: #053D38;;
+    color: #053D38;
+    ;
     margin-top: -8px;
 }
 
@@ -37,7 +38,8 @@
 .approveTask p {
     font-weight: 400;
     font-size: 14px;
-    color: #053D38;;
+    color: #053D38;
+    ;
     margin-top: -8px;
 }
 
@@ -73,13 +75,15 @@
     color: #053D38;
 }
 
-.assignPoint .point p{
+.assignPoint .point p {
     margin-top: -21px;
 }
-.marblePoint{
+
+.marblePoint {
     margin-left: 880px;
     margin-top: -210px;
 }
+
 .marblePoint h2 {
     font-family: 'Inter';
     font-weight: 400;
@@ -87,6 +91,6 @@
     color: #053D38;
 }
 
-.marblePoint .point p{
+.marblePoint .point p {
     margin-top: -21px;
 }

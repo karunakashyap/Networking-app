@@ -34,20 +34,20 @@ const Task = () => {
                 <h2>My Assignable Points</h2>
                 <div className={styles.point}>
 
-                    <p style={{fontWeight:'bold'}}>1000 Points<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <p style={{marginTop:'-10px',color:'#053D38;',fontFamily:'Inter'}}>Assigned by</p>
+                    <p style={{ fontWeight: 'bold' }}>1000 Points<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <p style={{ marginTop: '-10px', color: '#053D38;', fontFamily: 'Inter' }}>Assigned by</p>
                 </div>
                 <div className={styles.assignPointImage}>
-                     <Image src='/video-icon.svg' alt='' width={18} height={18}></Image> 
-                     <p style={{marginTop:'-3px',marginLeft:'-5px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{marginLeft:'55px',top:'-52px',position:'relative'}} src='/photo-icon.svg' alt='' width={18} height={18}></Image>
-                    <p style={{marginTop:'-54px',marginLeft:'50px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{top: '-55px',marginLeft:'115px',position:'relative'}} src='/report-icon.svg' alt='' width={18} height={18}></Image>
-                    <p style={{marginTop: '-57px',marginLeft: '110px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{top: '-55px',marginLeft:'175px',position:'relative'}} src='/report-icon.svg' alt='' width={18} height={18}></Image>
-                    <p style={{marginTop: '-55px',marginLeft: '171px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{position:'relative',marginLeft: '250px',top: '-55px'}} src='/forward-icon.svg' alt='' width={15} height={15}></Image>
- 
+                    <Image src='/video-icon.svg' alt='' width={18} height={18}></Image>
+                    <p style={{ marginTop: '-3px', marginLeft: '-5px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ marginLeft: '55px', top: '-52px', position: 'relative' }} src='/photo-icon.svg' alt='' width={18} height={18}></Image>
+                    <p style={{ marginTop: '-54px', marginLeft: '50px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ top: '-55px', marginLeft: '115px', position: 'relative' }} src='/report-icon.svg' alt='' width={18} height={18}></Image>
+                    <p style={{ marginTop: '-57px', marginLeft: '110px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ top: '-55px', marginLeft: '175px', position: 'relative' }} src='/report-icon.svg' alt='' width={18} height={18}></Image>
+                    <p style={{ marginTop: '-55px', marginLeft: '171px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ position: 'relative', marginLeft: '250px', top: '-55px' }} src='/forward-icon.svg' alt='' width={15} height={15}></Image>
+
 
                 </div>
 
@@ -56,23 +56,23 @@ const Task = () => {
                 <h2>My Reedemable Points</h2>
                 <div className={styles.point}>
 
-                    <p style={{fontWeight:'bold'}}>1000 Points<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <p style={{marginTop:'-10px',color:'#053D38',fontFamily:'Inter'}}>Assigned by</p>
+                    <p style={{ fontWeight: 'bold' }}>1000 Points<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <p style={{ marginTop: '-10px', color: '#053D38', fontFamily: 'Inter' }}>Assigned by</p>
                 </div>
                 <div className={styles.marblePointImage}>
-                     <Image src='/circle-placeholder.png' alt='' width={30} height={30}></Image> 
-                     <p style={{marginTop:'-3px',marginLeft:'-5px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{marginLeft:'55px',top:'-66px',position:'relative'}} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
-                    <p style={{marginTop:'-67px',marginLeft:'52px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{top: '-67px',marginLeft:'115px',position:'relative'}} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
-                    <p style={{marginTop: '-67px',marginLeft: '110px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{top: '-67px',marginLeft:'175px',position:'relative'}} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
-                    <p style={{marginTop: '-67px',marginLeft: '171px'}}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <Image style={{position:'relative',marginLeft: '250px',top: '-55px'}} src='/forward-icon.svg' alt='' width={15} height={15}></Image>
- 
+                    <Image src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
+                    <p style={{ marginTop: '-3px', marginLeft: '-5px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ marginLeft: '55px', top: '-66px', position: 'relative' }} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
+                    <p style={{ marginTop: '-67px', marginLeft: '52px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ top: '-67px', marginLeft: '115px', position: 'relative' }} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
+                    <p style={{ marginTop: '-67px', marginLeft: '110px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ top: '-67px', marginLeft: '175px', position: 'relative' }} src='/circle-placeholder.png' alt='' width={30} height={30}></Image>
+                    <p style={{ marginTop: '-67px', marginLeft: '171px' }}>100<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
+                    <Image style={{ position: 'relative', marginLeft: '250px', top: '-55px' }} src='/forward-icon.svg' alt='' width={15} height={15}></Image>
+
 
                 </div>
-                </div>
+            </div>
         </div>
     )
 }

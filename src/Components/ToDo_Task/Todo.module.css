@@ -14,9 +14,9 @@
 
 }
 
-.allTodoData p {
+.allTodoData li {
     font-weight: 400;
     font-size: 14px;
     color: #053D38;
-    ;
+    list-style: none;
 }
