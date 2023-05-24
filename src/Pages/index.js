@@ -9,53 +9,13 @@ import Point_task from '../Components/Points_Task/Point_task';
 const index = () => {
   return (
     <div>
-      
+
       <Globalstyle></Globalstyle>
       <Sidebar></Sidebar>
       <Todo></Todo>
       <Approve_task></Approve_task>
       <Assignable></Assignable>
       <Point_task></Point_task>
-      <div style={{marginLeft:'600px'}}>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-
-      <h1>hello india</h1>
-
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      <h1>hello india</h1>
-      </div>
-                
-
-     
       
     </div>
   )

@@ -16,7 +16,15 @@ const Todo = () => {
                         <li> Take a survey</li>
                         <li> Make a report</li>
                         <li> Take a video</li>
-                        <li> Take a photo at Bhauwala Dehradun</li>
+                        <li> Take a photo at Bhauwala Dehradun India</li>
+                        <li> Take a photo at Bhauwala Dehradun India</li>
+                        <li>Shoot a video at sharanpur chowk</li>
+                        <li> Take a survey</li>
+                        <li> Make a report</li>
+                        <li> Take a video</li>
+                        <li> Take a photo at Bhauwala Dehradun India</li>
+                        <li> Take a photo at Bhauwala Dehradun India</li>
+
                     </ul>
                 </div>
 

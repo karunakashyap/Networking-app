@@ -32,11 +32,12 @@
 {
   
   width: 8px;
+  
 }
 ::-webkit-scrollbar-thumb{
   background-color: #053D38;
   border-radius: 1rem;
   border: 2px solid transparent;
   background-clip: content-box;
- 
+
 }
