@@ -1,0 +1,43 @@
+.allTodoData h2 {
+
+    color: #053D38;
+    font-weight: 400;
+    font-size: 34px;
+    font-size: normal;
+
+}
+
+.allTodoData {
+    margin-top: '200px';
+    margin-left: '500px';
+    overflow:auto;
+    width: 320px;
+    height: 160px;
+
+
+}
+.allTodoData::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+  
+  .allTodoData::-webkit-scrollbar-track {
+    background: #A3CCAB;
+    border: 3px solid #A3CCAB;
+    border-radius: 20px;
+  }
+  
+  .allTodoData::-webkit-scrollbar-thumb {
+    background-color: #053D38;
+    border-radius: 20px;
+    border: 3px solid #053D38;
+  }
+
+
+.allTodoData li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #053D38;
+    list-style: none;
+}
