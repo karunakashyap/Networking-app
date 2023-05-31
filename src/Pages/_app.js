@@ -4,7 +4,7 @@ import './../app/globals.css'
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Avatar></Avatar>
+      {/* <Avatar></Avatar> */}
       <Component {...pageProps} />
       
 

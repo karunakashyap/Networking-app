@@ -6,6 +6,8 @@ import Globalstyle from '../app/Globalstyle';
 import Assignable from '../Components/Assignable_Point_Task/Assignable';
 import Point_task from '../Components/Points_Task/Point_task';
 
+
+
 const index = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const index = () => {
       <Approve_task></Approve_task>
       <Assignable></Assignable>
       <Point_task></Point_task>
+      
       
     </div>
   )
