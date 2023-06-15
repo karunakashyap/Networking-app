@@ -7,7 +7,7 @@ const TagHome = () => {
 
   return (
     <div>
-      <Tag slides={slides}  itemsPerRow={5} /> 
+      <Tag slides={slides}  itemsPerRow={5}  /> 
     </div>
   );
 };
