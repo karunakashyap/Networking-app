@@ -15,8 +15,12 @@
     width: 100%;
 }
 .nextBtn {
-    margin-left: -810px;
+    margin-left: 30px;
     
+}
+.prevBtn{
+    position: absolute;
+    left: 240px;
 }
 
 

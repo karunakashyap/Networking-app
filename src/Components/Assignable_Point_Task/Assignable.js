@@ -10,7 +10,7 @@ const Assignable = () => {
                 <div className={styles.assignPoint}>
 
                     <p style={{ fontWeight: 'bold' }}>1000 Points<Image src='/dollar-icon2.svg' alt='' width={10} height={10}></Image></p>
-                    <p style={{color:'#053D38'}}>Assigned by</p>
+                    <p style={{ color: '#053D38' }}>Assigned by</p>
                 </div>
                 <div className={styles.assignPointImage}>
                     <div className="grid grid-cols-5 w-72">

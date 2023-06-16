@@ -44,19 +44,7 @@
   font-family: 'Inter';
   font-size: 13px;
 
-}
-
-.avatarData button {
-
-  margin: 10px;
-  border-radius: 50px;
-  font-size: 12px;
-  width: 74px;
-  height: 20px;
-  background: #A3CCAB;
-  border: none;
-  
-}
+}  
 
 .allButton {
   margin-left: -450px;
@@ -67,13 +55,14 @@
 
   font-family: 'Inter';
   position: relative;
-  top: -75px;
-  left: -464px;
-
+  top: -60px;
+  left:5px;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-
-
   color: #A3CCAB;
+}
+.allSlider{
+  margin-top: -30px;
+  margin-left: 37px;
 }
