@@ -1,0 +1,25 @@
+.footer{
+position: relative;
+width: 1236px;
+height:205px;
+mix-blend-mode: normal;
+border-radius: 0px 107.5px 107.5px 0px;
+background-color: #34675C;
+display: block;
+display: inline-block;
+}
+.my_task_icon{
+    position: relative;
+    left: 140px;
+    top:30px;
+}
+.chat_icon{
+    position: relative;
+    left: 500px;
+    top:-120px;
+}
+.create_icon{
+    position: relative;
+    top:-265px;
+    margin-left: 800px;
+}

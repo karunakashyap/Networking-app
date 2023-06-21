@@ -1,0 +1,30 @@
+.allTodoData {
+    margin-top: 440px;
+    margin-left: 50px;
+    overflow: auto;
+    width:1000px;
+    height: 600px;
+    
+
+  
+  
+  }
+.allTodoData li {
+    font-weight: 400;
+    font-size: 64px;
+    color: #053D38;
+    list-style: none;
+  }
+  .allTodoData h2 {
+
+    color: #053D38;
+    font-weight: 400;
+    font-size: 94px;
+    font-size: normal;
+    
+  
+  }
+  .todoviewbtn{
+    position: relative;
+    top:-570px;
+  }

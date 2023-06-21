@@ -1,0 +1,29 @@
+.avatarData {
+    height: 380px;
+    padding: 5px;
+    width: 1370px;
+    background-color: rgba(52, 103, 92, 1);
+    border-radius: 200.5px 0px 0px 200.5px;
+    top: 20px;
+    right: 0px;
+    position: fixed;
+    display: flex;
+  }
+  
+  .avatarData h2 {
+    color: white;
+    font-size: 68px;
+    margin-top: 80px;
+    margin-left: 438px;
+    font-weight: 400;
+  }
+  
+  .avatarData img {
+    position: relative;
+    left: 60px;
+    top: 55px;
+    border: 2px solid white;
+    border-radius: 50%;
+  
+  }
+

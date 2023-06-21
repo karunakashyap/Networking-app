@@ -3,8 +3,8 @@ import React from 'react'
 const PreviousBtn = () => {
     return (
         <div>
-            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18.6431 24.8571L20.4814 23.0187L11.9627 14.5L20.4814 5.98122L18.6431 4.14282L8.28591 14.5L18.6431 24.8571Z" fill="white" />
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.9784 31.9712L27.343 29.6066L16.3862 18.6498L27.343 7.69303L24.9784 5.32849L11.6571 18.6498L24.9784 31.9712Z" fill="white" />
             </svg>
 
         </div>

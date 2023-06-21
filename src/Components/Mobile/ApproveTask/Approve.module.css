@@ -1,0 +1,27 @@
+.approveTaskData h2 {
+    color: #053D38;
+    font-weight: 400;
+    font-size: 94px;
+    font-size: normal;
+  
+  }
+  
+  .approveTaskData {
+    margin-left:40px;
+    margin-top: -159px;
+    overflow: auto;
+    width: 2000px;
+    height: 500px;
+  }
+  
+  .approveTaskData li {
+    font-weight: 400;
+    font-size: 64px;
+    color: #053D38;
+    list-style: none;
+  }
+  .approveviewbtn{
+    position: relative;
+    top: -520px;
+    
+  }

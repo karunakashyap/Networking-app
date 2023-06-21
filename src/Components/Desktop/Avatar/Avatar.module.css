@@ -1,0 +1,104 @@
+.avatarData {
+  height: 180px;
+  padding: 5px;
+  width: 970px;
+  background-color: rgba(52, 103, 92, 1);
+  border-radius: 107.5px 0px 0px 107.5px;
+  top: 20px;
+  right: 0px;
+  position: fixed;
+  display: flex;
+}
+
+.avatarData h2 {
+  color: white;
+  font-size: 18px;
+  margin-top: 120px;
+  margin-left: -38px;
+}
+
+.avatarData img {
+  position: relative;
+  left: 50px;
+  top: 13px;
+  border: 2px solid white;
+  border-radius: 50%;
+
+}
+
+.avatarData p {
+  margin-left: 350px;
+  margin-top: -100px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 8px;
+  color: white;
+  font-family: 'Inter';
+}
+
+.avatarData pre {
+  margin-left: 80px;
+  margin-top: 13px;
+  position: relative;
+  color: white;
+  font-family: 'Inter';
+  font-size: 13px;
+
+}
+
+.allButton {
+  margin-left: -450px;
+  margin-top: 120px;
+}
+
+.avatarData span {
+
+  font-family: 'Inter';
+  position: relative;
+  top: -60px;
+  left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #A3CCAB;
+}
+.avatarDataImg{
+  height: 260px;
+  width: 100px;
+}
+.allSlider {
+  margin-top: -30px;
+  margin-left: 37px;
+}
+/* @media screen and (max-width: 775px) {
+  .avatarData p{
+    display: none;
+  }
+  .avatarData pre{
+    display: none;
+  }
+  .allSlider{
+    display: none;
+  }
+  .avatarData span{
+    display: none;
+  }
+  .avatarData{
+    height: 380px;
+  padding: 5px;
+  width: 1370px;
+  border-radius: 213.5px 0px 0px 213.5px;
+   
+
+  }
+  .avatarData h2{
+    margin-left: 530px;
+    font-size: 58px;
+    margin-top: 150px;
+
+  }
+  .avatarData img{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+} */

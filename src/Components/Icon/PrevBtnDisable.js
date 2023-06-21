@@ -3,8 +3,8 @@ import React from 'react'
 const PrevBtnDisable = () => {
     return (
         <div>
-            <svg width="13" height="21" viewBox="0 0 13 21" fill='none' xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.6431 20.8571L12.4814 19.0187L3.9627 10.5L12.4814 1.98122L10.6431 0.142822L0.285911 10.5L10.6431 20.8571Z" fill="#9A9CA5" />
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.9784 31.9712L27.343 29.6066L16.3862 18.6498L27.343 7.69303L24.9784 5.32849L11.6571 18.6498L24.9784 31.9712Z" fill="#9A9CA5" />
             </svg>
         </div>
     )
