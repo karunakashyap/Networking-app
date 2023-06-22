@@ -1,8 +1,5 @@
-.viewbtn{
-position: relative;
-width: 405px;
-height: 15px;
-margin-left: 1200px;
-font-size: 64px;
-color:#A3CCAB;
+.viewbtn {
+    position: relative;
+    font-size: 14px;
+    color: #A3CCAB;
 }

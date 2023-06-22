@@ -1,27 +1,30 @@
-.approveTaskData h2 {
+ .approveTaskData h2 {
     color: #053D38;
     font-weight: 400;
-    font-size: 94px;
+    font-size: 24px;
     font-size: normal;
   
   }
   
   .approveTaskData {
-    margin-left:40px;
-    margin-top: -159px;
+    margin-left:12px;
+    margin-top: -24px;
     overflow: auto;
-    width: 2000px;
-    height: 500px;
+    width: 253px;
+    height: 98px;
   }
   
   .approveTaskData li {
     font-weight: 400;
-    font-size: 64px;
+    font-size: 12px;
     color: #053D38;
     list-style: none;
   }
   .approveviewbtn{
-    position: relative;
-    top: -520px;
-    
+     position: relative;
+    top:-100px;
+    font-size: 12px;
+    margin-left: 300px;
   }
+    
+  

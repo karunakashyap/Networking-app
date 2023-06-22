@@ -1,4 +1,4 @@
-import Avatar from '../Components/Desktop/Avatar/Avatar';
+import Avatar from '../Components/Mobile/Avatar/Avatar';
 import Footer from '../Components/Mobile/Footer/Footer';
 import '../app/globals.css'
 
