@@ -1,6 +1,5 @@
 .avatarData {
   height: 151px;
-  padding: 5px;
   width: 336px;
   background-color: rgba(52, 103, 92, 1);
   border-radius: 107.5px 0px 0px 107.5px;
@@ -20,7 +19,7 @@
 .avatarData img {
   position: relative;
   left: 30px;
-  top: 13px;
+  top: 17px;
   border: 2px solid white;
   border-radius: 50%;
 

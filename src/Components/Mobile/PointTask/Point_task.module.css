@@ -1,0 +1,50 @@
+.point {
+    width: 209px;
+    height: 70px;
+}
+
+.point h2 {
+    color: #053D38;
+    font-weight: 400;
+    font-size: 27px;
+    font-size: normal;
+}
+
+.point p:nth-child(2) {
+    color: #14140F;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+
+.point p:nth-child(3) {
+    color: #34675C;
+    font-size: 15px;
+
+}
+
+.point img {
+    margin-left: 88px;
+    margin-top: -19px;
+
+}
+
+.pointTask {
+    margin-left: 28px;
+    margin-top: -18px;
+}
+
+.pointTask {
+    margin-top: -18px;
+}
+
+.marblePointImage img {
+    margin-top: 30px;
+
+}
+
+.allpoints img {
+    margin-left: 27px;
+    margin-top: -18px;
+
+}
