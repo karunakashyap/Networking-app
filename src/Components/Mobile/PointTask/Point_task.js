@@ -6,7 +6,7 @@ const Point_task = () => {
         <div className={styles.pointTask}>
             <div>
                 <div className={styles.point}>
-                    <h2>My Points</h2>
+                    <h2>My Personal Points</h2>
                     <p>1000 Points<img src='/dollar-icon2.svg' alt='' width={17} height={17}></img></p>
                     <p >Achieved by tasks</p>
                 </div>

@@ -62,43 +62,13 @@
   font-size: 13px;
   color: #A3CCAB;
 }
-.avatarDataImg{
+
+.avatarDataImg {
   height: 260px;
   width: 100px;
 }
+
 .allSlider {
   margin-top: -30px;
   margin-left: 37px;
 }
-/* @media screen and (max-width: 775px) {
-  .avatarData p{
-    display: none;
-  }
-  .avatarData pre{
-    display: none;
-  }
-  .allSlider{
-    display: none;
-  }
-  .avatarData span{
-    display: none;
-  }
-  .avatarData{
-    height: 380px;
-  padding: 5px;
-  width: 1370px;
-  border-radius: 213.5px 0px 0px 213.5px;
-   
-
-  }
-  .avatarData h2{
-    margin-left: 530px;
-    font-size: 58px;
-    margin-top: 150px;
-
-  }
-  .avatarData img{
-    margin-left: 40px;
-    margin-top: 50px;
-  }
-} */

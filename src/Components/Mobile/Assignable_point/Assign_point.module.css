@@ -1,49 +1,49 @@
-.point {
-    width: 253px;
+.assignPoint {
+    width: 259px;
     height: 70px;
 }
 
-.point h2 {
+.assignPoint h2 {
     color: #053D38;
     font-weight: 400;
     font-size: 27px;
     font-size: normal;
 }
 
-.point p:nth-child(2) {
+.assignPoint p:nth-child(2) {
     color: #14140F;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Inter';
 }
 
-.point p:nth-child(3) {
+.assignPoint p:nth-child(3) {
     color: #34675C;
     font-size: 15px;
 
 }
 
-.point img {
+.assignPoint img {
     margin-left: 88px;
     margin-top: -19px;
 
 }
 
-.pointTask {
+.agginableData {
     margin-left: 40px;
+    margin-top: 18px;
 }
 
-.pointTask {
-    margin-top: 80px;
+.assignPointImage {
+    margin-top: 28px;
+
 }
 
-.marblePointImage img {
-    margin-top: 30px;
-
+.allpoints {
+    margin-top: 10px;
 }
 
 .allpoints img {
     margin-left: 27px;
     margin-top: -18px;
-
 }
