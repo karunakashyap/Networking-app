@@ -1,8 +1,8 @@
 .footer {
     position: absolute;
     width: 336px;
-    height: 55px;
-    mix-blend-mode: normal;
+    /* height: 55px; */
+    aspect-ratio: 6.1212;
     border-radius: 0px 107.5px 107.5px 0px;
     background-color: #34675C;
     display: block;

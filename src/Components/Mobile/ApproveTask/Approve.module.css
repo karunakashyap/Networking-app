@@ -1,28 +1,27 @@
  .approveTaskData h2 {
-    color: #053D38;
-    font-weight: 400;
-    font-size: 27px;
-    font-size: normal;
-  
-  }
-  
-  .approveTaskData {
-    margin-left:40px;
-    margin-top: 96px;
-    overflow: auto;
-    width: 253px;
-    height: 110px;
-  }
-  
-  .approveTaskData li {
-    font-weight: 400;
-    font-size: 15px;
-    color: #053D38;
-    list-style: none;
-  }
-  .approveviewbtn{
-    margin-left: 300px;
-    margin-top: -90px;
-  }
-    
-  
+   color: #053D38;
+   font-weight: 400;
+   font-size: 27px;
+   font-size: normal;
+
+ }
+
+ .approveTaskData {
+   margin-left: 40px;
+   margin-top: 96px;
+   overflow: auto;
+   width: 253px;
+   height: 110px;
+ }
+
+ .approveTaskData li {
+   font-weight: 400;
+   font-size: 15px;
+   color: #053D38;
+   list-style: none;
+ }
+
+ .approveviewbtn {
+   margin-left: 300px;
+   margin-top: -90px;
+ }

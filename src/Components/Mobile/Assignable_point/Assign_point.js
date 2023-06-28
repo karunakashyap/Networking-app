@@ -26,6 +26,9 @@ const Assign_point = () => {
                             <div className="..." style={{ marginLeft: '4px' }}>Surbhi<br></br>100<img src='/dollar-icon2.svg' alt='' width={12} height={12}></img></div>
                         </div>
                     </div>
+                    <div style={{height:'100px'}}>
+
+                    </div>
 
                 </div>
             </div>
