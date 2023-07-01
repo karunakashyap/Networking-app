@@ -1,45 +1,22 @@
-.footer {
-    position: absolute;
-    
-    /* height: 55px; */
-    border-radius: 0px 107.5px 107.5px 0px;
-    background-color: #34675C;
-    display: block;
-    display: inline-block;
-    bottom: 0px;
-    position: fixed;
-}
-
-.my_task_icon {
-    margin-left: 50px;
+.allFooterIcon {
+    padding-left: 35px;
+    margin: 10px;
     margin-top: 10px;
-}
-
-.chat_icon {
-    position: relative;
-    margin-left: 125px;
-    margin-top: -30px;
-}
-
-.create_icon {
-    position: relative;
-    margin-left: 200px;
-    margin-top: -28px;
+    position: absolute;
 }
 
 .invite_icon {
-    position: absolute;
-    margin-left: 270px;
+    position: relative;
     margin-top: -35px;
 
 }
 
 .create_icon_background {
     position: relative;
-    margin-left: 260px;
-    margin-top: -40px;
+    margin-left: -8px;
+    margin-top: -6px;
     background-color: orangered;
     width: 47px;
     height: 47px;
-    border-radius: 400px;
+    border-radius: 40px;
 }
