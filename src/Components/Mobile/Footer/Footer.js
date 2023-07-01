@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import styles from './Footer.module.css'
 
 const Footer = () => {
+  const[footerwidth,setFooterWidth]=useState(0)
+  useEffect(()=>{
+    function handleFooterSize(){
+      const screenWidth = window.innerWidth-40;
+      console.log(screenWidth)
+      setFooterWidth(screenWidth)
+    }
+    handleFooterSize()
+    window.addEventListener('resize',handleFooterSize())
+  return () => {
+    window.removeEventListener('resize',handleFooterSize())
+  }
+  },[])
   return (
     <div>
-      <div className={styles.footer}>
+      <div className={styles.footer} style={{width:footerwidth}}>
         <div className={styles.my_task_icon}>
           <img src='/my task.svg' width={30} height={30}></img>
 

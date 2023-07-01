@@ -1,8 +1,7 @@
 .footer {
     position: absolute;
-    width: 336px;
+    
     /* height: 55px; */
-    aspect-ratio: 6.1212;
     border-radius: 0px 107.5px 107.5px 0px;
     background-color: #34675C;
     display: block;
@@ -30,15 +29,15 @@
 
 .invite_icon {
     position: absolute;
-    margin-left: 286px;
-    margin-top: -32px;
+    margin-left: 270px;
+    margin-top: -35px;
 
 }
 
 .create_icon_background {
     position: relative;
-    margin-left: 280px;
-    margin-top: -38px;
+    margin-left: 260px;
+    margin-top: -40px;
     background-color: orangered;
     width: 47px;
     height: 47px;

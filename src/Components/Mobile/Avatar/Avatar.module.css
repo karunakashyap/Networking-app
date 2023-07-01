@@ -15,14 +15,17 @@
 .avatarData h2 {
   color: white;
   font-size: 18px;
-  margin-top: -70px;
-  margin-left: 220px;
+  /* margin-top: -70px;
+  margin-left: 220px; */
+  position: relative;
+  left: 70px;
+  bottom:-50px; 
 }
 
 .avatarData img {
   position: relative;
-  left: 30px;
-  top: 17px;
+  left: 15px;
+  top: 15px;
   border: 2px solid white;
   border-radius: 50%;
 
@@ -66,8 +69,8 @@
 }
 
 .avatarDataImg {
-  height: 114px;
-  width: 114px;
+  /* 
+   */
 }
 
 .allSlider {
