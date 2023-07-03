@@ -1,0 +1,28 @@
+.allTodoData li {
+  font-weight: 400;
+  font-size: 15px;
+  color: #053D38;
+  list-style: none;
+}
+
+.allTodoData h2 {
+
+  color: #053D38;
+  font-weight: 400;
+  font-size: 27px;
+  font-size: normal;
+
+
+}
+
+.todoviewbtn {
+  margin-top: -90px;
+  margin-left: 300px;
+}
+
+.allTodoData {
+  width: 253px;
+  height: 98px;
+  margin-top: 180px;
+  margin-left: 40px;
+}

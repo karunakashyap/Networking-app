@@ -1,0 +1,34 @@
+ .agginableData h2 {
+   color: #053D38;
+   font-weight: 400;
+   font-size: 34px;
+   font-size: normal;
+ }
+
+ .assignPoint img {
+   margin-left: 92px;
+   margin-top: -16px;
+ }
+
+ .point img {
+   margin-left: 28px;
+   margin-top: -15px;
+ }
+
+ .point {
+   margin-left: -8px;
+ }
+
+ .assignPoint p:first-child+p {
+   margin-top: 9px;
+ }
+
+ .assignPointImage {
+
+   margin-top: 15px;
+ }
+
+ .agginableData {
+   margin-left: 500px;
+   margin-top: 42px;
+ }
