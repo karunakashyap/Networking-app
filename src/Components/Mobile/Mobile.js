@@ -11,7 +11,7 @@ const Mobile = () => {
     return (
         <div>
             <GlobalStyles />
-            <Avatar />
+            <Avatar  imgsrc='../../../public/Ellipse 1.svg'/>
             <Todo />
             <Approve />
             <Point_task />

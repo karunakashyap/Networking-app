@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Avatar.module.css';
-import avatarImage from '../../../../public/Ellipse 1.svg';
 
-const Avatar = () => {
-  console.log(avatarImage)
+const Avatar = (props) => {
+  console.log(props)
   const [headerwidth, setHeaderwidth] = useState(0)
   const [headerHeight, setHeaderHeight] = useState(0)
   const [profileHeight, setProfileHeight] = useState(0)
@@ -44,7 +43,7 @@ const Avatar = () => {
           <div className={styles.avatarDataImg}>
             <div className="grid grid-cols-2 gap-4">
               <div className="...">
-                <img src='Ellipse 1.svg' alt='profile-imge' style={{ width: 'auto', height: profileHeight }}></img>
+                <img src={props.imgscr} alt='profile-imge' style={{ width: 'auto', height: profileHeight }}></img>
               </div>
               <div className="...">
                 <h2>Kapil <br></br> Sharma</h2>
