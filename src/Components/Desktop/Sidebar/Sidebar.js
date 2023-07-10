@@ -1,12 +1,10 @@
 import React from 'react';
 import styles from './Sidebar.module.css'
 import Image from 'next/image';
-import Globalstyle from '../../../app/Globalstyle';
 const Sidebar = () => {
     console.log(styles)
     return (
         <div>
-            <Globalstyle></Globalstyle>
             <div className={styles.sidebar}>
                 <h1 className={styles.sidebarHeading}>
                     My Network

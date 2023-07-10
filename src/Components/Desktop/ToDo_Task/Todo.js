@@ -1,5 +1,4 @@
 import React from 'react';
-import Globalstyle from '../../../app/Globalstyle';
 import styles from './Todo.module.css'
 
 
@@ -7,7 +6,6 @@ const Todo = () => {
     return (
         <div>
 
-            <Globalstyle></Globalstyle>
             <div className={styles.allTodoData}>
                 <div >
                     <h2>Task To Do</h2>

@@ -5,9 +5,9 @@ import AllUserNotification from './UserNotification/AllUserNotification'
 const NotificationScreen = () => {
   return (
     <div>
-        <NotificationHeader text="Notification" />
-        <AllUserNotification />
-      
+      <NotificationHeader text="Notification" />
+      <AllUserNotification />
+
     </div>
   )
 }

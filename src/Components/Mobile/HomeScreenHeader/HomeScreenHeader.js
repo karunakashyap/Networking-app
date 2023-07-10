@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Avatar from '../Avatar/Avatar';
+import Avatar from '../../Common/Avatar/Avatar';
 import styles from './HomeScreenHeader.module.css';
 
 const HomeScreenHeader = (props) => {

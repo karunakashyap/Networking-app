@@ -8,8 +8,8 @@
     margin-top: 15px;
     margin-left: 35px;
 }
-.userNotification img{
-    /* margin-top: 10px; */
+
+.userNotification img {
     border-radius: 42px;
     margin-left: 25px;
 
@@ -19,12 +19,12 @@
     margin-top: 15px;
     width: 100%;
     position: relative;
-    top:20px;
+    top: 20px;
 }
 
 
 
 
-.userNotification li:hover{
+.userNotification li:hover {
     background-color: #D3D3D3;
-} 
+}

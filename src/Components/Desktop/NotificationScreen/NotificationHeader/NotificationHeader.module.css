@@ -10,14 +10,15 @@
     display: flex;
 
 }
-.notifiContent img{
+
+.notifiContent img {
     margin-left: 5px;
 }
 
 .notifiContent {
     margin-top: 54px;
     margin-left: 100px;
-   
+
 }
 
 

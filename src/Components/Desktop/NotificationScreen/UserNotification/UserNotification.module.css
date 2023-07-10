@@ -1,4 +1,4 @@
-.allNotification ul li{
+/* .allNotification ul li{
     margin-top: 19px;
 }
 .allNotification h1{
@@ -13,4 +13,10 @@ margin-top: 20px;
 }
 .allNotification img{
     margin-left: -17px;
+} */
+.userNotification {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+    top: 20px;
 }

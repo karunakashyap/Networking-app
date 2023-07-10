@@ -1,11 +1,9 @@
 import React from 'react';
 import styles from './SettingIcon.module.css'
-import GlobalStyles from '../../../../app/Globalstyle';
 
 const SettingIcon = () => {
     return (
         <div>
-            <GlobalStyles />
             <div className={styles.allSettingIcon}>
                 <ul>
                     <div className={styles.settingIconContent}>
@@ -17,7 +15,7 @@ const SettingIcon = () => {
                         </li>
                         <li>
                             <div className="grid grid-cols-2 gap-1 w-36">
-                                <div className="..."  style={{marginLeft:'-3px',marginTop:'-6px'}}><img src='/privacy icons blue.svg' width={34} height={33}></img></div>
+                                <div className="..." style={{ marginLeft: '-3px', marginTop: '-6px' }}><img src='/privacy icons blue.svg' width={34} height={33}></img></div>
                                 <div className="..."><h1>Privacy</h1></div>
                             </div>
                         </li>                        <li>
@@ -33,7 +31,7 @@ const SettingIcon = () => {
                         </li>                        <li>
                             <div className="grid grid-cols-2 gap-1 w-36">
                                 <div className="..."><img src='/logout blue.svg' width={34} height={33}></img></div>
-                                <div className="..." style={{color:'#2B8CA7',fontSize:'16px',fontWeight:'400'}}><h2>Log Out</h2></div>
+                                <div className="..." style={{ color: '#2B8CA7', fontSize: '16px', fontWeight: '400' }}><h2>Log Out</h2></div>
                             </div>
                         </li>
                     </div>

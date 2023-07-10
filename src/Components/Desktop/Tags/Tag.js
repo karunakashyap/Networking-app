@@ -4,7 +4,6 @@ import NextBtn from '../../Icon/NextBtn';
 import NextBtnDisable from '../../Icon/NextBtnDisable';
 import PreviousBtn from '../../Icon/PreviousBtn';
 import PrevBtnDisable from '../../Icon/PrevBtnDisable';
-import Globalstyle from '../../../app/Globalstyle';
 
 const Tag = ({ slides, itemsPerRow }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -51,7 +50,6 @@ const Tag = ({ slides, itemsPerRow }) => {
 
     return (
         <>
-            <Globalstyle />
             <div className={styles.slider}>
                 <div className={styles.sliderContent}>
                     {

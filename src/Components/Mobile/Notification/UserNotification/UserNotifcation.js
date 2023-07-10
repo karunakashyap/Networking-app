@@ -1,13 +1,11 @@
 import React from 'react';
 import styles from './UserNotification.module.css';
-import Globalstyle from '../../../../app/Globalstyle'
-import Avatar from '../../Avatar/Avatar';
+import Avatar from '../../../Common/Avatar/Avatar';
 
 
 const UserNotification = (props) => {
     return (
         <div>
-            <Globalstyle />
             <div className={styles.allNotification}>
                 <ul>
                     <div className={styles.userNotification}>
