@@ -6,26 +6,25 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 .userNotification img{
-    margin-left: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    border-radius: 42px;
+    margin-left: 25px;
+
 }
 
 .userNotification {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
+    position: relative;
+    top:20px;
 }
 
-.userNotification li {
-    
-    height: 60px;
-    margin-top: 10px;
-    margin-left:0px; 
-   
-    
-}
+
+
+
 .userNotification li:hover{
     background-color: #D3D3D3;
-}
+} 

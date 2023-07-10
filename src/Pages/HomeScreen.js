@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import Mobile from './Mobile/Mobile';
-import Desktop from './Desktop/DesktopHomeScreen'
+import Mobile from '../Components/Mobile/Mobile';
+import Desktop from '../Components/Desktop/DesktopHomeScreen'
 
 
 const ResponsiveScreen = () => {

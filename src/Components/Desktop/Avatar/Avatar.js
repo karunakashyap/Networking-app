@@ -11,7 +11,7 @@ const Avatar = () => {
       <Globalstyle></Globalstyle>
       <div className={styles.avatarData}>
         <div className={styles.avatarDataImg}>
-          <img src='/Ellipse 1.svg' alt='profile-imge' ></img>
+          <img src='https://placehold.co/300x300' alt='profile-imge' ></img>
         </div>
         <h2>Kapil Sharma</h2>
         <pre>I'm a Graphic Designer and Video Editor with work Experience of 5 years<br></br>with a strong work ethic and creative work ability.</pre>

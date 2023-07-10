@@ -1,12 +1,12 @@
 import React from 'react';
-import ResponsiveScreen from '../Components/ResponsiveScreen';
+import HomeScreen from './HomeScreen';
 import Notification from './Notification';
 const index = () => {
   return (
     <div>
 
       
-      <ResponsiveScreen />  
+      <HomeScreen />  
       {/* <Notification />     */}
       
 

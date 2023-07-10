@@ -1,12 +1,10 @@
-import React from 'react'
-// import NotifiScreen from '../Components/Desktop/NotificationScreen/NotifiScreen';
-import NotifiScreen from '../Components/Mobile/Notification/NotifiScreen'
+import React from 'react';
+import NotificationScreen from '../Components/Mobile/Notification/NotificationScreen'
 
 const Notification = () => {
   return (
     <div>
-       {/* <NotifiScreen />       */}
-      <NotifiScreen />
+      <NotificationScreen />
     </div>
   )
 }
