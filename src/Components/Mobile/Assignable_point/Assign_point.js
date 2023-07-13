@@ -18,7 +18,7 @@ const Assign_point = () => {
                         <div className="..."><img src='/circle-placeholder.png' alt='' width={42} height={42}></img></div>
                         <div className="..." style={{ marginTop: '12px',marginLeft:'20px' }}><img src='/forward-icon.svg' alt='' width={12} height={20}></img></div>
                     </div>
-                    <div className={styles.allpoints}>
+                    <div className={styles.allpoints} >
                         <div className="grid grid-cols-5 w-70">
                             <div className="...">Surbhi<br></br>100<img src='/dollar-icon2.svg' alt='' width={12} height={12}></img></div>
                             <div className="...">Surbhi<br></br>100<img src='/dollar-icon2.svg' alt='' width={12} height={12}></img></div>

@@ -1,0 +1,25 @@
+.tagContent {
+    width: 117px;
+    height: 35px;
+    padding: 17px;
+    background-color: rgba(193, 155, 71, 1);
+    
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    position: relative;
+    top:120px;
+}
+.tagContent p{
+    margin-top: -8px;
+   color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -4px;
+}
+.tagContent .cancelIcon{
+    margin-left: 67px;
+    margin-top: -20px;
+}

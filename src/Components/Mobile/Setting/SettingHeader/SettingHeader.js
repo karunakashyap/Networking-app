@@ -1,12 +1,20 @@
-import React from 'react';
-import NotificationHeader from '../../Notification/NotificationHeader/NotificationHeader';
-
-const SettingHeader = () => {
+import styles from './SettingHeader.module.css'
+const SettingHeader = (props) => {
+  console.log(props)
+ 
   return (
     <div>
-      <NotificationHeader text="setting" />
+            <div className={styles.settingHeader} style={{width:props.headerWidth}} >
+                <div className={styles.settingContent}>
+                    <div className="grid grid-cols-2 w-32">
+                        <div className="..."><img src='/back arrow icon.svg' alt='' width={30} height={30}></img> </div>
+                        <div className="..."><h1>{props.text}</h1></div>
+                    </div>
+                </div>
 
-    </div>
+            </div>
+
+        </div>
   )
 }
 

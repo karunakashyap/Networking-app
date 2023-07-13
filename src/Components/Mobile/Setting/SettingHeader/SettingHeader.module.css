@@ -1,11 +1,11 @@
-.notifiHeader {
+.settingHeader {
     /* width: 345px; */
     height: 55px;
     border-radius: 0px 30px 30px 0px;
     background: #2B8CA7;
 }
 
-.notifiHeader h1 {
+.settingHeader h1 {
     color: var(--white, #FFF);
     font-size: 20px;
     font-family: 'Inter';
@@ -14,7 +14,7 @@
     line-height: normal;
 }
 
-.notifiContent {
+.settingContent {
     margin-left: 38px;
     position: relative;
     top: 15px;

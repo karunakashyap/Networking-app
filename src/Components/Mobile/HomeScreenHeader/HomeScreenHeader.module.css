@@ -1,6 +1,6 @@
 .avatarData h2 {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   left: 70px;
   bottom: -50px;
@@ -16,45 +16,11 @@
 
 }
 
-.avatarData p {
-  margin-left: 350px;
-  margin-top: -100px;
-  position: relative;
-  font-size: 30px;
-  font-weight: 8px;
-  color: white;
-  font-family: 'Inter';
-}
-
-.avatarData pre {
-  margin-left: 80px;
-  margin-top: 13px;
-  position: relative;
-  color: white;
-  font-family: 'Inter';
-  font-size: 13px;
-
-}
-
-.allButton {
-  margin-left: -450px;
-  margin-top: 120px;
-}
-
-.avatarData span {
-
-  font-family: 'Inter';
-  position: relative;
-  top: -60px;
-  left: 5px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: #A3CCAB;
-}
 
 
-.allSlider {
-  margin-top: -30px;
-  margin-left: 37px;
-}
+
+
+
+
+
+
