@@ -1,0 +1,26 @@
+.settingIconContent h1 {
+    color: #14140F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.settingIconContent img {
+    margin-left: 25px;
+    margin-top: -1px;
+}
+
+.settingIconContent {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.settingIconContent li {
+
+    height: 60px;
+    margin-top: -14px;
+    margin-left: 10px;
+
+
+}

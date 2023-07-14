@@ -1,17 +1,14 @@
 import React from 'react';
-import styles from './Avatar.module.css';
-import Globalstyle from "../../../app/Globalstyle";
+import styles from './HomeScreenHeader.module.css';
 import TagHome from '../Tags/TagHome';
-
-
-const Avatar = () => {
+import Avatar from '../../Common/Avatar/Avatar';
+const HomeScreenHeader = () => {
 
   return (
     <div>
-      <Globalstyle></Globalstyle>
       <div className={styles.avatarData}>
         <div className={styles.avatarDataImg}>
-          <img src='/Ellipse 1.svg' alt='profile-imge' ></img>
+          <Avatar />
         </div>
         <h2>Kapil Sharma</h2>
         <pre>I'm a Graphic Designer and Video Editor with work Experience of 5 years<br></br>with a strong work ethic and creative work ability.</pre>
@@ -26,4 +23,4 @@ const Avatar = () => {
   )
 }
 
-export default Avatar
+export default HomeScreenHeader;

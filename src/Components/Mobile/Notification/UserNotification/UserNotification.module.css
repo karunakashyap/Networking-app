@@ -1,0 +1,35 @@
+ .UserNotification h1 {
+    width: 218px;
+    color: #14140F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.UserNotification img {
+    border-radius: 42px;
+    margin-left: 25px;
+    /* margin-top: 10px; */
+
+}
+.UserNotification {
+    /* margin-top: 15px; */
+    /* width: 100%;
+    position: relative;
+    top: 20px; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+} 
+
+
+
+
+
+.UserNotification li:hover {
+    background-color: #D3D3D3;
+}

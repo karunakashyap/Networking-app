@@ -1,14 +1,11 @@
 import React from 'react';
-import DesktopHomeScreen from '../Components/Desktop/DesktopHomeScreen';
-import Mobile from '../Components/Mobile/Mobile';
-import ResponsiveScreen from '../Components/ResponsiveScreen';
+import HomeScreen from './HomeScreen';
 const index = () => {
   return (
     <div>
 
       
-      <ResponsiveScreen />
-      
+      <HomeScreen />  
       
 
     </div>

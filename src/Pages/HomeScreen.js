@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import Mobile from './Mobile/Mobile';
-import Desktop from './Desktop/DesktopHomeScreen'
+import MobileHomeScreen from '../Components/Mobile/MobileHomeScreen';
+import DesktopHomeScreen from '../Components/Desktop/DesktopHomeScreen'
+import GlobalStyles from '../app/Globalstyle';
 
 
 const ResponsiveScreen = () => {
@@ -25,10 +26,11 @@ const ResponsiveScreen = () => {
 
       return (
         <div>
+          <GlobalStyles />
           {isDesktop ? (
-            <Desktop />
+            <DesktopHomeScreen  />
           ) : (
-            <Mobile />
+            <MobileHomeScreen />
           )}
         </div>
       );

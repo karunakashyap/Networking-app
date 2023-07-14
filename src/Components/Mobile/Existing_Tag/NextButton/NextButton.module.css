@@ -1,0 +1,26 @@
+.nextButton{
+    display: flex;
+width: 315px;
+height: 50px;
+padding: 7px 29px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 28px;
+background: #2B8CA7;
+/* position: relative;
+top:500px;
+left:50px; */
+margin-top: 500px;
+margin-left: 50px;
+
+}
+.nextButton button{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

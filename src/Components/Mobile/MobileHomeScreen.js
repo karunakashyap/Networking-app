@@ -1,5 +1,5 @@
-import React from 'react'
-import Avatar from '../Mobile/Avatar/Avatar'
+import React from 'react';
+import HomeScreenHeader from './HomeScreenHeader/HomeScreenHeader';
 import Footer from './Footer/Footer'
 import Todo from './Todo/Todo'
 import Approve from './ApproveTask/Approve'
@@ -11,7 +11,7 @@ const Mobile = () => {
     return (
         <div>
             <GlobalStyles />
-            <Avatar />
+            <HomeScreenHeader  imageSource='https://placehold.co/300x300'/>
             <Todo />
             <Approve />
             <Point_task />
@@ -19,6 +19,7 @@ const Mobile = () => {
             <Footer />
 
         </div>
+        
     )
 }
 
