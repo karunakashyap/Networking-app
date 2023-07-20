@@ -1,25 +1,120 @@
-.tagContent {
-    width: 117px;
-    height: 35px;
-    padding: 17px;
-    background-color: rgba(193, 155, 71, 1);
+/* .tagContent p {
     
-    border-radius: 30px;
-    margin-bottom: 10px;
-    margin-left: 5px;
     position: relative;
     top:120px;
+     left: 20px;    
 }
 .tagContent p{
-    margin-top: -8px;
-   color: #FFF;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: -4px;
+   
+    background-color: rgba(193, 155, 71, 1); 
+    border: none;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 7px;
+    display: inline-block;
+    border-radius: 30px;
 }
-.tagContent .cancelIcon{
-    margin-left: 67px;
-    margin-top: -20px;
+.tagContent img{
+    position: relative;
+    left: 90px;
+    bottom: -26px;
+} */
+
+/* body {
+    font: 12px/1.5 'PT Sans', serif;
+    margin: 25px;
+  } */
+
+
+
+.tag li {
+  display: flex;
+  align-items: center;
+  float: left;
+  background: rgba(193, 155, 71, 1);
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+
+}
+
+.tags li img {
+  float: left;
+}
+
+.tag li p {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-top: 6px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  left: 10px;
+}
+
+.tag li p img {
+  margin-left: 10px;
+}
+
+.tag {
+  /* background: black; */
+  border-radius: 20px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+
+  /* -webkit-transition: color 0.2s; */
+}
+
+/* .tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  } */
+
+/* .tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+  } */
+
+.tag:hover {
+  /* background-color: crimson; */
+  color: white;
+}
+
+.tag:hover::after {
+  border-left-color: crimson;
 }

@@ -12,14 +12,10 @@
 .UserNotification img {
     border-radius: 42px;
     margin-left: 25px;
-    /* margin-top: 10px; */
+   
 
 }
 .UserNotification {
-    /* margin-top: 15px; */
-    /* width: 100%;
-    position: relative;
-    top: 20px; */
     width: 100%;
     margin: 0;
     padding: 0;

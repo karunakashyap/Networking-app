@@ -42,15 +42,13 @@ const AllUserNotification = () => {
     }
     return (
         <div>
-            
-           {result.response.data.map((value)=>{
-            return(
-                <div>
-                    <UserNotification  profile={value.profilePic} message={value.notificationMessage}/>
-                </div>
-            )
-
-           })}
+            {result.response.data.map((value) => {
+                return (
+                    <div>
+                        <UserNotification profile={value.profilePic} message={value.notificationMessage} />
+                    </div>
+                )
+            })}
         </div>
     )
 }
