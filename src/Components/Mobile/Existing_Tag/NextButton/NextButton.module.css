@@ -9,8 +9,8 @@
      border-radius: 50px;
      background: #2B8CA7;
      position: absolute;
-     margin-top:700px;
-     margin-left: 70px;
+     margin-top:400px;
+     margin-left: 40px;
  }
 
  .nextButton button {
@@ -19,6 +19,6 @@
      font-style: normal;
      font-weight: 700;
      line-height: normal;
-     margin: 40px;
+     /* margin: 20px; */
      height: 27px;
  }

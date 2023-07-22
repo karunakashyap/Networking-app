@@ -32,28 +32,34 @@
 
 
 
-.tag li {
-  display: flex;
-  align-items: center;
-  float: left;
+.tags li {
+  /* display: flex;
+  align-items: center;*/
+  float: left; 
   background: rgba(193, 155, 71, 1);
   border-radius: 30px;
   margin: 10px;
+  /* position: relative;
+  white-space: nowrap; */
+  
 }
 
-.tags {
+/* .tags{
   list-style: none;
   margin: 0;
   overflow: hidden;
   padding: 0;
+  white-space: nowrap;
 
-}
+} */
 
-.tags li img {
+
+/* .tags li img {
   float: left;
-}
+} */
 
-.tag li p {
+.tags li p {
+  
   display: flex;
   align-items: center;
   padding: 7px;
@@ -63,25 +69,26 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
   position: relative;
   left: 10px;
 }
 
 .tag li p img {
-  margin-left: 10px;
+  margin-left: 33px;
 }
 
+
 .tag {
+  
   /* background: black; */
   border-radius: 20px;
   color: #999;
-  display: inline-block;
+  /* display: inline-block; */
   height: 26px;
-  line-height: 26px;
+  /* line-height: 26px; */
   padding: 0 20px 0 23px;
-  position: relative;
   margin: 0 10px 10px 0;
+  
   text-decoration: none;
 
   /* -webkit-transition: color 0.2s; */

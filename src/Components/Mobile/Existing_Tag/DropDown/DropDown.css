@@ -8,8 +8,8 @@
   border-style: solid;
   border-radius: 50px;
   padding-left: 40px;
-  margin-left: 70px;
-  margin-top: 350px;
+  margin-left: 40px;
+  margin-top: -23px;
   position: absolute;
   
  
@@ -17,8 +17,8 @@
 
 .SuggDropDownInput img {
   position: relative;
-  top: 368px;
-  left: 420px;
+  top: -6px;
+  left: 370px;
 }
 
 
@@ -34,17 +34,24 @@
   align-content: flex-start;
 }
 
-.SuggInput {
-  width: 100%;
-  height: 40px;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: white;
-  transition: background-color 0.3s;
-  user-select: none;
+.SuggInput{
+  /* width: 400px;
+  height: 70px;
+  font-size: 25px;
+  line-height: 30px;
+  background-color: #EDEDED;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 50px; */
+  /* padding-left: 40px;
+  margin-left: 70px;
+  margin-top: 350px;
+  position: absolute; */
+ 
+}
+.SuggDropDownInput input:hover .SuggInput h1{
+  display: block;
+
 }
 
 .SuggDropDownInput:focus-within>.SuggDropDown {
@@ -66,12 +73,12 @@
 .allOptionRender {
   width: 460px;
   border-radius: 10px;
-  height: 220px;
+  height: 300px;
   overflow-y: scroll;
   padding: 30px;
   position: absolute;
-  margin-top: 380px;
-  margin-left: 21px;
+  margin-top: -6px;
+  margin-left: -11px;
   
 }
 
