@@ -13,12 +13,10 @@ function DropDown(props) {
                     {
                         "title": value,
                         "isNew": true,
-                        "country": "india",
-                        img: '/public/bell icon blue.svg'
+                       
                     },
                 ])
             }
-
         })
     }
     const handleChange = (value) => {
@@ -37,7 +35,7 @@ function DropDown(props) {
                     {results.map((optionValue, key) => {
                         return (
                             <div className='dropdownOption' key={key}>
-                                <div onClick={() => { props.getOptionValue(optionValue) }}>{optionValue.isNew ?
+                                <div onClick={() => { props.selectTagOption(optionValue) }}>{optionValue.isNew ?
                                     <p>{input}{<img style={{ marginLeft: '300px', marginTop: '-26px' }} src='plus add icon.svg'></img>}</p>
                                     : <p>{optionValue.title} {<img style={{ marginLeft: '300px' }} src='/check box.svg'></img>}</p>}</div>
                             </div>

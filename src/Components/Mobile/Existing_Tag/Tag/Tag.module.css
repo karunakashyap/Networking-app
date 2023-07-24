@@ -43,6 +43,9 @@
   white-space: nowrap; */
   
 }
+.hideIcon{
+  display: none;
+}
 
 /* .tags{
   list-style: none;
@@ -73,9 +76,9 @@
   left: 10px;
 }
 
-.tag li p img {
+/* .tag li p img {
   margin-left: 33px;
-}
+} */
 
 
 .tag {

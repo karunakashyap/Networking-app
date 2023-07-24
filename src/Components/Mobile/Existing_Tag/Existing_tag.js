@@ -4,21 +4,44 @@ import NextButton from './NextButton/NextButton'
 import DropDown from './DropDown/DropDown'
 import GlobalStyles from '../../../app/Globalstyle'
 const Existing_tag = () => {
+  const [selectedTags, setSelectedTags] = useState([
+    {
+      "title": "Developer1",
+      "isSelected": true,
+    },
+    {
+      "title": "Developer2",
+      "isSelected": true,
+    },
+    {
+      "title": "Developer3",
+      "isSelected": true,
+    }
+  ]);
+  const removeTag = (index) => {
+    console.log('removeTag', selectedTags)
+    console.log('removeTag', selectedTags.splice(index, 1))
+    setSelectedTags([
+        ...selectedTags.splice(index, 1)
+    ]);
+}
 
-  const [selectedTags, setSelectedTags] = useState(['Marketing 1', 'Marketing 1', 'Marketing 1', 'Design 2', 'Marketing 1', 'Distribution', 'Marketing', 'Design 4', 'Marketing',
-    'Distribution', 'Marketing 1', 'Design 4', 'Design 4', 'Marketing']);
-  const getOptionValue = (optionValue) => {
-    const tag = selectedTags;
-    tag.push(optionValue.title)
-    console.log(tag)
-    // setSelectedTags(tag)
+  const selectTagOption = (optionValue) => {
+    const tags = [
+      ...selectedTags,
+      {
+        title: optionValue.title,
+        isSelected: true
+      }
+    ];
+    setSelectedTags(tags)
   }
   return (
     <div>
       <GlobalStyles />
-      <AllTag text={selectedTags} />
+      <AllTag tags={selectedTags} removeTag={removeTag} />
       <NextButton />
-      <DropDown getOptionValue={getOptionValue} />
+      <DropDown selectTagOption={selectTagOption} />
     </div>
   )
 }
