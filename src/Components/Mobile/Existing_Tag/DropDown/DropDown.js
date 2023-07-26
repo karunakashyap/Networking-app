@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import "./DropDown.css";
-import { title } from "process";
+import styles from "./DropDown.module.css";
 function DropDown(props) {
     const [input, setInput] = useState("");
     const [results, setResults] = useState([]);
@@ -8,7 +7,6 @@ function DropDown(props) {
         fetch(`https://dummyjson.com/products/search?q=${value}`)
             .then((response) => response.json())
             .then((data) => {
-                console.log(results)
 
                 const dumyData = [
                     {
@@ -25,7 +23,7 @@ function DropDown(props) {
                     }
                 ]
                 if (data.products.length > 0) {
-                    setResults([...dumyData,...data.products]);
+                    setResults([...dumyData, ...data.products]);
                 } else {
                     setResults([
                         ...dumyData,
@@ -43,9 +41,9 @@ function DropDown(props) {
     };
     return (
         <>
-        
-            <div className="Wrapper">
-                <div className="SuggDropDownInput">
+
+            <div className={styles.Wrapper}>
+                <div className={styles.SuggDropDownInput}>
                     <input
                         id="DropdownInput"
                         autoComplete="off"
@@ -56,23 +54,28 @@ function DropDown(props) {
                 </div>
             </div>
             <div>
-                <div className="allOptionRender">
+                <div className={styles.allOptionRender}>
                     {results.map((optionValue, key) => {
 
                         return (
-                            <div className="dropdownOption" key={key}>
+                            <div className={styles.dropdownOption} key={key}>
                                 <div
                                     onClick={() => {
                                         props.selectTagOption(optionValue);
                                     }}
                                 >
-                                {optionValue.isNew?(
+                                    {optionValue.isSelected ? (
                                         <p>
-                                            {input}
+                                            {optionValue.title}
+                                            {<img style={{ marginLeft: '310px',marginTop:'-26px' }} src="golden check box.svg"></img>}
+                                        </p>
+                                    ) : optionValue.isNew ? (
+                                        <p>
+                                            {optionValue.title}
                                             {
                                                 <img
-                                                    style={{ marginLeft: "300px", marginTop: "-26px" }}
-                                                    src="plus add icon.svg"
+                                                    style={{ marginLeft: "310px", marginTop: "-26px" }}
+                                                    src="/plus add icon.svg"
                                                 ></img>
                                             }
                                         </p>
@@ -81,7 +84,7 @@ function DropDown(props) {
                                             {optionValue.title}
                                             {
                                                 <img
-                                                    style={{ marginLeft: "300px" }}
+                                                    style={{ marginLeft: "310px", marginTop: "-23px" }}
                                                     src="/check box.svg"
                                                 ></img>
                                             }
