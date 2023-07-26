@@ -8,6 +8,8 @@ function DropDown(props) {
         fetch(`https://dummyjson.com/products/search?q=${value}`)
             .then((response) => response.json())
             .then((data) => {
+                console.log(results)
+
                 const dumyData = [
                     {
                         "title": "Developer1",
@@ -41,6 +43,7 @@ function DropDown(props) {
     };
     return (
         <>
+        
             <div className="Wrapper">
                 <div className="SuggDropDownInput">
                     <input
@@ -55,6 +58,7 @@ function DropDown(props) {
             <div>
                 <div className="allOptionRender">
                     {results.map((optionValue, key) => {
+
                         return (
                             <div className="dropdownOption" key={key}>
                                 <div
@@ -62,8 +66,7 @@ function DropDown(props) {
                                         props.selectTagOption(optionValue);
                                     }}
                                 >
-                                    {dumyData.isSelected?dummyData.title:'hrllo'}
-                                {/* {optionValue.isNew?(
+                                {optionValue.isNew?(
                                         <p>
                                             {input}
                                             {
@@ -83,7 +86,7 @@ function DropDown(props) {
                                                 ></img>
                                             }
                                         </p>
-                                    )} */}
+                                    )}
                                 </div>
                             </div>
                         );
