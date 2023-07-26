@@ -19,13 +19,17 @@ const Existing_tag = () => {
     }
   ]);
   const removeTag = (index) => {
-    console.log('removeTag', selectedTags)
-    console.log('removeTag', selectedTags.splice(index, 1))
-    setSelectedTags([
-        ...selectedTags.splice(index, 1)
-    ]);
-}
+    console.log(index)
+    const a= [...selectedTags];
+    a.splice(index,1)
+    setSelectedTags(a)
+    // selectedTags.filter((obj)=>{
+    //   setSelectedTags(obj.title!==index)
+    // })
 
+    
+
+   }
   const selectTagOption = (optionValue) => {
     const tags = [
       ...selectedTags,
