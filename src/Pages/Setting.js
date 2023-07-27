@@ -7,8 +7,7 @@ const Setting = () => {
     <div>
       <GlobalStyles />
       <SettingScreen />
-
-    </div>
+      </div>
   )
 }
 
