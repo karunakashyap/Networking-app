@@ -1,0 +1,74 @@
+/* .userId {
+    width: 360px;
+    height: 800px;
+} */
+.allData {
+    width: 360px;
+    /* height: 800px; */
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.userId h1 {
+    color: #353D48;
+    /* font-family: 'Inter'; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+
+}
+
+.userId input {
+    width: 315px;
+    height: 45px;
+    background-color: #EDEDED;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+
+}
+
+.userPassword {
+    margin-top: 20px;
+}
+
+.userPassword h1 {
+    color: #353D48;
+    /* font-family: 'Nunito'; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+
+}
+
+.userPassword input {
+    width: 315px;
+    height: 45px;
+    background-color: #EDEDED;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 5px;
+    padding-left: 20px;
+
+
+
+}
+
+.forgatPassword h1 {
+    color: #353D48;
+    /* font-family: 'Nunito'; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 210px;
+    margin-top: 20px;
+
+}
