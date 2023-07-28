@@ -6,7 +6,7 @@ const Password = () => {
   return (
     <div>
         <PasswordData />
-        <SignUpButton />
+        <SignUpButton btntext="SignUp"/>
       
     </div>
   )

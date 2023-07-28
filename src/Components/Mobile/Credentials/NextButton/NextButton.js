@@ -9,7 +9,7 @@ const NextButton = () => {
           Already have an account <span style={{color: '#2B8CA7',fontWeight:'700',fontSize:'14px'}}>Sign In</span> </h1>
       </div>
       <div style={{ marginTop: '-440px' }}>
-        <SignUpButton />
+        <SignUpButton btntext="Next" />
       </div>
     </div>
   )
