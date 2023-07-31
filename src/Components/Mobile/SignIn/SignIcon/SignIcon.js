@@ -8,14 +8,14 @@ const SignIcon = () => {
         <div className="...">
           <div className={styles.facebookIcon}>
             <button>
-              <img src='/facebook icon.svg'></img>
+              <img src='/facebook-icon.svg'></img>
             </button>
           </div>
         </div>
         <div className="...">
           <div className={styles.googleIcon}>
             <button>
-              <img src='/facebook icon.svg'></img>
+              <img src='/facebook-icon.svg'></img>
             </button>
           </div>
         </div>
