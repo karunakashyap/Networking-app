@@ -5,9 +5,8 @@ import SignUpButton from './SignUpButton/SignUpButton'
 const Password = () => {
   return (
     <div>
-        <PasswordData />
-        <SignUpButton btntext="SignUp"/>
-      
+      <PasswordData pwd='Password' retypepwd="Re-type Password" />
+      <SignUpButton btntext="SignUp" />
     </div>
   )
 }

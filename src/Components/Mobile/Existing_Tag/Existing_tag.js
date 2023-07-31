@@ -19,15 +19,15 @@ const Existing_tag = () => {
     }
   ]);
   const removeTag = (index) => {
-    const a= [...selectedTags];
-    a.splice(index,1)
+    const a = [...selectedTags];
+    a.splice(index, 1)
     setSelectedTags(a)
-    
-    
 
-   }
+
+
+  }
   const selectTagOption = (optionValue) => {
-    
+
     const tags = [
       ...selectedTags,
       {
