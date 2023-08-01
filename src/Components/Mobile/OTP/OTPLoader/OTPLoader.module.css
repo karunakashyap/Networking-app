@@ -1,75 +1,83 @@
 .allLoaderData {
-    margin-top: 150px;
+  margin-top: 150px;
+
 }
 
 .loaderHeading {
-    color: rgba(53, 61, 72, 0.40);
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 110px;
-    width: 200px;
+  color: rgba(53, 61, 72, 0.40);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 110px;
+  width: 200px;
 
-}
-
-.loaderCircle {
-    width: 104px;
-    height: 104px;
-    border-radius: 60px;
-    background-color: transparent;
-    -webkit-animation: 1s spin linear infinite;
-    animation: spin 30s linear;
-}
-
-.loaderCode {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-left: 160px;
-    margin-top: 40px;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-        opacity: 1;
-        border: 4px solid #2B8CA7;
-        border-top-color: rgba(42, 77, 126, 0.30);
-    }
-
-    50% {
-        transform: rotate(180deg);
-        opacity: 1;
-        border: 4px solid #2B8CA7;
-        border-top-color: rgba(42, 77, 126, 0.30);
-    }
-
-    100% {
-        transform: rotate(360deg);
-        opacity: 0.5;
-        border: 4px solid #2B8CA7;
-        border-top-color: rgba(42, 77, 126, 0.30);
-
-    }
 }
 
 .loaderTime {
-    margin-left: 10px;
-    margin-top: -84px;
-    color: #2B8CA7;
-    text-align: center;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  margin-top: -224px;
+  color: #2B8CA7;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100px;
+  margin-left: 156px;
 }
 
 .resendBtn {
-    margin-left: 186px;
-    margin-top: -64px;
-    color: #2B8CA7;
+  margin-left: 176px;
+  margin-top: -252px;
+  color: #2B8CA7;
+}
+
+.secText {
+  color: rgba(53, 61, 72, 0.40);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+
+
+
+.countdownNumber {
+  color: white;
+  display: inline-block;
+  line-height: 40px;
+}
+
+.countdown svg {
+
+  width: 130px;
+  height: 400px;
+  margin-top: -130px;
+  margin-left: 0px;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+
+.countdown svg circle {
+  stroke-dasharray: 313px;
+  stroke-dashoffset: 0px;
+  stroke-linecap: round;
+  stroke-width: 4px;
+  stroke: #2B8CA7;
+  fill: none;
+  animation: countdown 10s linear forwards;
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+
+  to {
+    stroke-dashoffset: 313px;
+
+  }
 }

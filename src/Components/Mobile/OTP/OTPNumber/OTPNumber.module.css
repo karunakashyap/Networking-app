@@ -12,6 +12,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: -12px;
 }
 
 .optNumber input {
@@ -32,7 +33,7 @@
 }
 
 .resendCode {
-    margin-left: 133px;
+    margin-left: 141px;
     margin-top: 13px;
 }
 
