@@ -67,7 +67,7 @@ function DropDown(props) {
                                     {optionValue.isSelected ? (
                                         <p>
                                             {optionValue.title}
-                                            {<img style={{ marginLeft: '310px',marginTop:'-26px' }} src="golden check box.svg"></img>}
+                                            {<img style={{ marginLeft: '310px', marginTop: '-26px' }} src="golden check box.svg"></img>}
                                         </p>
                                     ) : optionValue.isNew ? (
                                         <p>
@@ -85,7 +85,7 @@ function DropDown(props) {
                                             {
                                                 <img
                                                     style={{ marginLeft: "310px", marginTop: "-23px" }}
-                                                    src="/check box.svg"
+                                                    src="/blue_checkbox.svg"
                                                 ></img>
                                             }
                                         </p>

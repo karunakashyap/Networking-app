@@ -1,0 +1,18 @@
+.facebookIcon button{
+    border:1px solid #2B8CA7;
+    border-radius: 50px;
+}
+.facebookIcon button img{
+    padding: 10px;
+}
+.googleIcon button{
+    border:1px solid #2B8CA7;
+    border-radius: 50px;
+}
+.googleIcon button img{
+    padding: 10px;
+}
+.allIcon{
+   margin-left: 165px;
+   margin-top: 350px;
+}
