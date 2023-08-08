@@ -1,32 +1,49 @@
-import React, { useState, useRef } from 'react';
-import './Onboarding.css'; 
+import React, { useState } from 'react';
+import styles from './Onboarding.module.css'; // Import the CSS module
 
-const ImageSlider = ({ slides }) => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const sliderRef = useRef(null);
+const images = [
+  {
+    src: "/slider1.svg",
+    caption: "Connect With People",
+  },
+  {
+    src: "/slider2.svg",
+    caption: "Get Stuff Done",
+  },
+  {
+    src: "slider3.svg",
+    caption: "Celebrate",
+  },
+  {
+    src: "slider4.svg",
+    caption: "Lets Get Started",
+  },
+];
 
-  const handleScroll = () => {
-    const slideWidth = sliderRef.current.offsetWidth;
-    const scrollOffset = sliderRef.current.scrollLeft;
-    const newSlide = Math.floor((scrollOffset + slideWidth / 2) / slideWidth);
-    setCurrentSlide(newSlide);
+const ImageSlider = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const handleImageClick = () => {
+    setCurrentImage((prevImage) => (prevImage + 1) % images.length);
   };
 
   return (
-    <div className="slider-container">
-      <div className="slider" onScroll={handleScroll} ref={sliderRef}>
-        {slides.map((slide, index) => (
-          <div key={index} className={`slide ${index === currentSlide ? 'active' : ''}`}>
-            <img src={slide.image} alt={`Slide ${index + 1}`} />
-            <div className="content">
-              <p>{slide.description == 'Lets Get Started' ? (<button className='startButton'>Lets Get Started</button>) : slide.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="dots">
-        {slides.map((_, index) => (
-          <span key={index} className={`dot ${index === currentSlide ? 'active' : ''}`} />
+    <div className={styles['slider-container']} onClick={handleImageClick}>
+      {images.map((image, index) => (
+        <div
+          key={image.id}
+          className={`${styles['image']} ${index === currentImage ? styles.active : ''}`}
+        >
+          <img src={image.src} alt={image.alt} />
+          <div className={styles.caption}>{image.caption=="Lets Get Started"?(<button className={styles.startButton}>Lets Get Started</button>):(<p>{image.caption}</p>)}</div>
+        </div>
+      ))}
+      <div className={styles['dots-container']}>
+        {images.map((_, index) => (
+          <span
+            key={index}
+            className={`${styles.dot} ${index === currentImage ? styles.active : ''}`}
+          ></span>
         ))}
       </div>
     </div>
@@ -34,4 +51,3 @@ const ImageSlider = ({ slides }) => {
 };
 
 export default ImageSlider;
-
