@@ -1,0 +1,33 @@
+.allTagsData h1 {
+    color: #14140F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10%;
+}
+
+.allTagsData {
+    margin-top: 400px;
+}
+
+.allTags {
+    width: 325px;
+    display: flex;
+    position: relative;
+    left: 40%;
+
+}
+
+.allTags li {
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

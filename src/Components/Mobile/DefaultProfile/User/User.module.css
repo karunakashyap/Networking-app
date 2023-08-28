@@ -1,0 +1,29 @@
+.aboutuser {
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 316px;
+}
+
+.aboutuser .parafirst {
+    color: #14140F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.aboutuser .parasecond {
+    color: #14140F;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    width: 311px;
+}
+
+.aboutuser img {
+    float: right;
+    margin-top: 50px;
+}

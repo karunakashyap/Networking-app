@@ -1,0 +1,19 @@
+.allProfileData {
+  position: fixed;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(0, 0%, 83%);
+  width: 316px;
+  height: 316px;
+
+}
+
+.imageSelect input[type="file"] {
+  opacity: 0;
+  width: 200px;
+  height: 250px;
+  margin-top: -280px;
+  margin-left: 40px;
+  position: absolute;
+}
