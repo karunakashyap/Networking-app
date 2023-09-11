@@ -10,7 +10,7 @@ function DropDown(props) {
 
                 const dumyData = [
                     {
-                        "title": "Developer1",
+                        "title": "Develop1",
                         "isSelected": true,
                     },
                     {
@@ -65,17 +65,18 @@ function DropDown(props) {
                                     }}
                                 >
                                     {optionValue.isSelected ? (
-                                        <p>
+                                        <span>
                                             {optionValue.title}
-                                            {<img style={{ marginLeft: '310px', marginTop: '-26px' }} src="golden check box.svg"></img>}
-                                        </p>
+                                            {<img style={{ marginLeft: '310px',marginTop:'-26px' }} src="golden check box.svg"></img>}
+                                        </span>
                                     ) : optionValue.isNew ? (
                                         <p>
                                             {optionValue.title}
                                             {
                                                 <img
-                                                    style={{ marginLeft: "310px", marginTop: "-26px" }}
                                                     src="/plus add icon.svg"
+                                                    style={{ marginLeft: "310px", marginTop: "-26px" }}
+
                                                 ></img>
                                             }
                                         </p>
@@ -84,8 +85,9 @@ function DropDown(props) {
                                             {optionValue.title}
                                             {
                                                 <img
-                                                    style={{ marginLeft: "310px", marginTop: "-23px" }}
                                                     src="/blue_checkbox.svg"
+                                                    style={{ marginLeft: "310px", marginTop: "-23px" }}
+
                                                 ></img>
                                             }
                                         </p>

@@ -16,10 +16,12 @@ const NextButton = () => {
   }, []);
   return (
     <>
-      <div className={styles.nextButton}>
-        <button style={{ width: nextButtonWidth }}>Next</button>
+      <div>
+        <div className={styles.nextButton}>
+          <button style={{ width: nextButtonWidth }}>Next</button>
+        </div>
+        <div style={{marginBottom:'50px'}}></div>
       </div>
-      <div style={{ marginBottom: "50px" }}></div>
     </>
   );
 };

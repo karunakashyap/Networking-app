@@ -40,10 +40,15 @@ const Existing_tag = () => {
   return (
     <div>
       <GlobalStyles />
+      <div style={{ color: '#484848', width: '200px', fontSize: '25px', marginLeft: '190px', marginTop: '90px', fontWeight: '600' }}>
+        <h1>Select Tag</h1>
+      </div>
       <AllTag tags={selectedTags} removeTag={removeTag} />
-      <NextButton />
       <DropDown selectTagOption={selectTagOption} />
+      <NextButton />
+
     </div>
+
   )
 }
 export default Existing_tag

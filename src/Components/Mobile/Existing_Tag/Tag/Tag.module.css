@@ -1,17 +1,19 @@
+.hideIcon {
+  display: none;
+}
+
 .tag {
+  float: left;
   background: rgba(193, 155, 71, 1);
   border-radius: 30px;
   margin: 10px;
 }
-.hideIcon{
-  display: none;
-}
-.taglist{
+
+.taglist {
   background: rgba(193, 155, 71, 1);
   float: left;
   border-radius: 20px;
   margin: 10px;
-
 }
 .taglist p {
   
@@ -28,10 +30,13 @@
   left: 10px;
 }
 .tag {
-   border-radius: 20px;
+  
+  
+  border-radius: 20px;
   color: #999;
   height: 26px;
   padding: 0 20px 0 23px;
   margin: 0 10px 10px 0;
+  
   text-decoration: none;
 }

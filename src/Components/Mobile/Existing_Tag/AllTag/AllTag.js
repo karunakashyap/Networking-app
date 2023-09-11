@@ -4,12 +4,9 @@ import styles from './AllTag.module.css';
 const AllTag = (props) => {
   return (
     <div>
-      <div className={styles.heading}>
-        <h1>Select Tag</h1>
-      </div>
       <div>
         <div className={styles.tagContent} style={{ width: '470px', margin: '15px' }}>
-          <ul className={styles.tags} style={{ display: 'inline-block' }} >
+          <ul className={styles.tags} style={{ display: 'inline-block' }}>
             {
               props.tags.map((item, index) => {
                 return (
