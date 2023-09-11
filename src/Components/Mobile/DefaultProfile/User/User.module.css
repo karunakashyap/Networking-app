@@ -1,7 +1,7 @@
 .aboutuser {
     margin-left: 10%;
-    margin-top: 10px;
-    width: 316px;
+    /* margin-top: 10px; */
+    /* width: 316px; */
 }
 
 .aboutuser .parafirst {
@@ -9,6 +9,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 800;
+    margin-top: 30px;
 
 }
 
@@ -20,10 +21,6 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
-    width: 311px;
+    width: 90%;
 }
 
-.aboutuser img {
-    float: right;
-    margin-top: 50px;
-}

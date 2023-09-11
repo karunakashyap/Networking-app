@@ -9,16 +9,13 @@ const User = ({ funcClick, imageUrl, edit }) => {
                 <p className={styles.parafirst}>About You</p>
                 <p className={styles.parasecond}>
                     {edit ?
-                        <textarea style={{ padding: '10px', width: '300px' }}
-                            // type="textarea"
-                            // value={value}
+                        <textarea style={{ padding: '10px',width:'90%' }}
                             placeholder='Type..'
                             onChange={(event) => setInputValue(event.target.value)}
                         />
                         : <>{inputValue}</>
                     }
                 </p>
-                <img src={imageUrl} onClick={funcClick}></img>
             </div>
         </div>
     )

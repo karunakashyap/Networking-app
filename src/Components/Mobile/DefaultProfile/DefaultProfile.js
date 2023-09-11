@@ -3,6 +3,8 @@ import NotificationHeader from './../Notification/NotificationHeader/Notificatio
 import Profile from './Profile/Profile';
 import AboutUser from './AboutUser/AboutUser';
 import User from './User/User';
+import LabelScreen from '../LabelScreen/LabelScreen';
+import EditIcon from './EditIcon/EditIcon';
 
 const DefaultProfile = () => {
   const [text, setText] = useState('Your Profile')
@@ -30,18 +32,30 @@ const DefaultProfile = () => {
   const changeName = () => {
     setText('Change Profile')
     setBackgroundColor('white')
-    setIconImage('/check-blue-square.svg')
+    setIconImage('/square-check-box.svg')
     setIsEditable(true);
     setColor('#000')
     setTagBackground('#D9D9D9')
   }
+  const [showLabelScreen, setshowLabelScreen] = useState(false);
 
+  const handleDivClick = () => {
+    setshowLabelScreen(true);
+  };
   return (
     <div>
-      <NotificationHeader text={text} headerWidth={headerwidth} />
-      <Profile />
-      <AboutUser backcolor={backgroundColor} color={color} tagBackground={tagBackground} />
-      <User funcClick={changeName} imageUrl={iconImage} edit={isEditable} />
+      {showLabelScreen ? (
+          <LabelScreen/>
+      ) : (
+        <div>
+
+          <NotificationHeader text={text} headerWidth={headerwidth} />
+          <Profile />
+          <AboutUser backcolor={backgroundColor} color={color} tagBackground={tagBackground} onDivClick={handleDivClick} />
+          <User edit={isEditable} />
+          <EditIcon   funcClick={changeName} imageUrl={iconImage}/>
+        </div>
+      )}
     </div>
   )
 }
