@@ -1,0 +1,7 @@
+.textBoxMessage input {
+    height: 35px;
+    padding: 4px 34px 4px 15px;
+    border-radius: 30px;
+    background: #EDEDED;
+    font-size: 14px;
+}
