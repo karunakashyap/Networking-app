@@ -6,14 +6,6 @@ const AboutUser = ({ color, backcolor, tagBackground, onDivClick }) => {
             <div className={styles.allTagsData}>
                 <h1>Surbhi Kandwal</h1>
                 <div className={styles.allTags} onClick={onDivClick} style={{backgroundColor:tagBackground}}>
-                    {/* <ul>
-                        <li style={{ backgroundColor: backcolor, color: color }}>Marketing 1</li>
-                        <li style={{ backgroundColor: backcolor, color: color }}>Desing 4</li>
-                        <li style={{ backgroundColor: backcolor, color: color }}>Tech 5</li>
-                        <li style={{ backgroundColor: backcolor, color: color }}>Desing 2</li>
-                        <li style={{ backgroundColor: backcolor, color: color }}>IT 1</li>
-                        <li style={{ backgroundColor: backcolor, color: color }}>Distribution 1</li>
-                    </ul> */}
                     <ul className={styles.tags}>
                         <li><a href="#" className={styles.tag} style={{ backgroundColor: backcolor, color: color }}>Marketing 1</a></li>
                         <li><a href="#" className={styles.tag} style={{ backgroundColor: backcolor, color: color }}>Design 1</a></li>
