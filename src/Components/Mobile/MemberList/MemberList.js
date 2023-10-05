@@ -29,7 +29,7 @@ const MemberList = () => {
           "chat_title": "Place order",
           "chat_user_name": "karuna kashyap",
           "unread_count": 5,
-          "chat_image_url": "/group-chat-member.svg",
+          "chat_image_url": "/group-chat-member-white.svg",
           "members_image_url": [
             "/profile-image2.svg",
             "/profile-image2.svg"
@@ -45,7 +45,7 @@ const MemberList = () => {
           "chat_title": "Make Report",
           "is_logged_in": false,
           "unread_count": 6,
-          "chat_image_url": "/group-chat-member.svg",
+          "chat_image_url": "/group-chat-member-white.svg",
           "members_image_url": [
             "/profile-image2.svg",
             "/profile-image2.svg",

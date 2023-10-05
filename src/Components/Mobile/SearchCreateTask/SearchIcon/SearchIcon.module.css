@@ -1,0 +1,33 @@
+.demo {
+    position: fixed;
+    bottom: 30px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw; /* Adjust as needed */
+  }
+.demo div{
+  padding: 7px;
+  background-color: gainsboro;
+  border-radius: 50px;
+
+}
+  .demo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .iconNames {
+    position: fixed;
+    bottom: 0px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw; /* Adjust as needed */
+  }
+  .iconNames p{
+    font-size: 14px;
+  }
