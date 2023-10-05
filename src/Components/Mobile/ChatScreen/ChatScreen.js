@@ -7,7 +7,6 @@ import TextBox from './TextBox/TextBox'
 import SendIcon from './SendIcon/SendIcon'
 import AddTaskIcon from './AddTaskIcon/AddTaskIcon'
 import TaggedUsersString from '../../../Helpers/Taggered_Users'
-import './ChatScreen.css';
 import ChatPopUp from './ChatPopUp/ChatPopUp'
 const ChatScreen = () => {
   const chatScreenData = {
