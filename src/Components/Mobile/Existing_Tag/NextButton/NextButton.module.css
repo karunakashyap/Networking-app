@@ -1,5 +1,5 @@
 .nextButton {
-    width: 400px;
+    /* width: 400px; */
     display: flex;
     height: 70px;
     justify-content: center;
@@ -8,10 +8,11 @@
     flex-shrink: 0;
     border-radius: 50px;
     background: #2B8CA7;
-    position: absolute;
-    margin-top:300px;
+    /* position: absolute;
+    margin-top:300px; */
     /* margin-left: 70px; */
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    margin: 20px;
 }
 
  .nextButton button {
@@ -21,7 +22,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin: 40px;
+        /* margin: 40px; */
         height: 27px;
     
  }

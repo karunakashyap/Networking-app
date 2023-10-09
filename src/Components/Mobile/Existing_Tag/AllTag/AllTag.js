@@ -5,7 +5,7 @@ const AllTag = (props) => {
   return (
     <div>
       <div>
-        <div className={styles.tagContent} style={{ width: '470px', margin: '15px' }}>
+        <div className={styles.tagContent} style={{ margin: '15px' }}>
           <ul className={styles.tags} style={{ display: 'inline-block' }}>
             {
               props.tags.map((item, index) => {

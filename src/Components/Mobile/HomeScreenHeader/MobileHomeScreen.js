@@ -39,8 +39,7 @@ const Mobile = () => {
             <div >
                 < div className={networkScreen}>
                 <div style={{width:'10%',height:'100vh'}} onClick={handleChild}></div>
-
-                    <div className={styles.innerdiv}>
+                <div className={styles.innerdiv}>
                         <div className={styles.animate}>
                             <div className={styles.avatarData}>
                                 <div className={styles.avatarDataImg}>

@@ -11,10 +11,10 @@ const SearchIcon = ({showMembers,showTasks ,showGivenTag,showSearchProfile,filte
                 <div  onClick={showTasks}><img src={tasksIcon}></img></div>
             </div>
             <div className={styles.iconNames}>
-                <p>Filters</p>
+                <p style={{marginLeft:'10px'}}>Filters</p>
                 <p>Members</p>
                 <p>Chats</p>
-                <p style={{ marginRight: '10px' }}>Tasks</p>
+                <p style={{marginLeft:'20px',position:'relative',left:'-6px'}}>Tasks</p>
             </div>
         </div>
     )

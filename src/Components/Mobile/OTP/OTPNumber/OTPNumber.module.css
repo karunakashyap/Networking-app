@@ -45,9 +45,8 @@
     font-weight: 400;
     line-height: normal;
 }
-
-.resendCode span {
-    color: #2B8CA7;
+.resendDisable{
+    color:#2B8CA7;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;

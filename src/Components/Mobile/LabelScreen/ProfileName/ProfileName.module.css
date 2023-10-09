@@ -1,12 +1,12 @@
 .profilePicture {
-    margin-left: 160px;
     margin-top: 50px;
-    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 .userName {
-    margin-left: 170px;
-    width: 200px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .userName h1 {

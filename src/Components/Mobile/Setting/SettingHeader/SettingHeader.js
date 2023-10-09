@@ -1,6 +1,5 @@
 import styles from './SettingHeader.module.css'
 const SettingHeader = (props) => {
-  console.log(props)
  
   return (
     <div>

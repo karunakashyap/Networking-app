@@ -7,7 +7,7 @@ const HomeScreenHeader = (props) => {
   const [headerwidth, setHeaderwidth] = useState(0)
   const [headerHeight, setHeaderHeight] = useState(0)
   const [headerborderRadius, setHearderBorderRadius] = useState(0)
-  const [hideease,setHideease]=useState(styles.hideease)
+  const [hideease, setHideease] = useState(styles.hideease)
   useEffect(() => {
     const getMobilewidth = () => {
       const screenWidth = window.innerWidth - 40;
@@ -22,11 +22,11 @@ const HomeScreenHeader = (props) => {
       window.addEventListener('resize', getMobilewidth)
     }
   }, []);
- 
- 
+
+
   return (
     <div >
-      
+
       <div className={styles.headerContent} >
         <div className={homeHeader} style={{
           width: headerwidth, height: headerHeight,
@@ -49,7 +49,7 @@ const HomeScreenHeader = (props) => {
         </div>
       </div>
     </div>
-    
+
   )
 }
 

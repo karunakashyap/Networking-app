@@ -121,9 +121,9 @@ const SearchCreateTask = () => {
     setGivenTag(false);
     setSearchProfile(false)
     setSearchedBar(true)
-    setFilterIconUrl('/filter-blue-icon.svg')
-    setMembersIconUrl('/group-icon-blue.svg')
-    setChatsIcon('/chats-yellow-icon.svg')
+    setFilterIconUrl('/filter-blue-icon1.svg')
+    setMembersIconUrl('/members-icon-blue.svg')
+    setChatsIcon('/chat-yellow-icon.svg')
     setTasksIcon('/tasks-icon-blue.svg')
 
 
@@ -136,9 +136,9 @@ const SearchCreateTask = () => {
       setActiveTasks(false)
       setRecentSearched(false)
       setSearchProfile(false)
-      setFilterIconUrl('/filter-icon-yellow.svg')
-      setMembersIconUrl('/group-icon-blue.svg')
-      setChatsIcon('/chat-icon-blue.svg')
+      setFilterIconUrl('/filter-yellow-icon1.svg')
+      setMembersIconUrl('/members-icon-blue.svg')
+      setChatsIcon('/chat-blue-icon.svg')
       setTasksIcon('/tasks-icon-blue.svg')
 
 
@@ -150,10 +150,10 @@ const SearchCreateTask = () => {
     setGivenTag(false)
     setShowMembers(false)
     setSearchProfile(false)
-    setFilterIconUrl('/filter-blue-icon.svg')
-    setMembersIconUrl('/group-icon-blue.svg')
-    setChatsIcon('/chat-icon-blue.svg')
-    setTasksIcon('/tasks-yellow-icon.svg')
+    setFilterIconUrl('/filter-blue-icon1.svg')
+    setMembersIconUrl('/members-icon-blue.svg')
+    setChatsIcon('/chat-blue-icon.svg')
+    setTasksIcon('/tasks-icon-yellow.svg')
 
   };
   const getInputValue=(value)=>{
@@ -167,16 +167,16 @@ const SearchCreateTask = () => {
     setSearchedBar(true)
     setRecentSearched(true)
     setShowMembers(false)
-    setFilterIconUrl('/filter-blue-icon.svg')
-    setMembersIconUrl('/members-yellow-icon.svg')
-    setChatsIcon('/chat-icon-blue.svg')
+    setFilterIconUrl('/filter-blue-icon1.svg')
+    setMembersIconUrl('/members-icon-yellow.svg')
+    setChatsIcon('/chat-blue-icon.svg')
     setTasksIcon('/tasks-icon-blue.svg')
 
   }
   const[recentSearched,setRecentSearched]=useState(true);
-  const[filterIconUrl,setFilterIconUrl]=useState('/filter-blue-icon.svg');
-  const[membersIconUrl,setMembersIconUrl]=useState('/members-yellow-icon.svg');
-  const[chatsIcon,setChatsIcon]=useState('/chat-icon-blue.svg');
+  const[filterIconUrl,setFilterIconUrl]=useState('/filter-blue-icon1.svg');
+  const[membersIconUrl,setMembersIconUrl]=useState('/members-icon-yellow.svg');
+  const[chatsIcon,setChatsIcon]=useState('/chat-blue-icon.svg');
   const[tasksIcon,setTasksIcon]=useState('/tasks-icon-blue.svg')
 return (
     <div>

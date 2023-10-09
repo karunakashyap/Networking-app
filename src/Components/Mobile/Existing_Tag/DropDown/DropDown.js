@@ -45,7 +45,7 @@ function DropDown(props) {
             <div className={styles.Wrapper}>
                 <div className={styles.SuggDropDownInput}>
                     <input
-                        id="DropdownInput"
+                        className="DropdownInput"
                         autoComplete="off"
                         value={input}
                         onChange={(e) => handleChange(e.target.value)}
@@ -65,32 +65,37 @@ function DropDown(props) {
                                     }}
                                 >
                                     {optionValue.isSelected ? (
-                                        <span>
-                                            {optionValue.title}
-                                            {<img style={{ marginLeft: '310px',marginTop:'-26px' }} src="golden check box.svg"></img>}
-                                        </span>
+                                        <div>
+                                            <span>
+                                                {optionValue.title}
+                                            </span>
+                                            <img style={{float:'right',marginTop:'21px' }} src="golden check box.svg"></img>
+                                        </div>
                                     ) : optionValue.isNew ? (
-                                        <p>
+                                        <div>
+                                        <p style={{ paddingLeft: '20px',paddingTop:'18px' }}>
                                             {optionValue.title}
-                                            {
-                                                <img
+                                            </p>
+                                                <img style={{float:'right',marginTop:'-27px' }}
                                                     src="/plus add icon.svg"
-                                                    style={{ marginLeft: "310px", marginTop: "-26px" }}
 
                                                 ></img>
-                                            }
-                                        </p>
+                                           
+                                      </div>
                                     ) : (
-                                        <p>
+                                        <div>
+                                        <p  style={{ paddingLeft: '20px',paddingTop:'18px' }}>
                                             {optionValue.title}
-                                            {
+                                            </p>
+                                            
                                                 <img
                                                     src="/blue_checkbox.svg"
-                                                    style={{ marginLeft: "310px", marginTop: "-23px" }}
+                                                    style={{float:'right',marginTop:'-27px' }}
 
                                                 ></img>
-                                            }
-                                        </p>
+                                            
+                                            </div>
+                                       
                                     )}
                                 </div>
                             </div>

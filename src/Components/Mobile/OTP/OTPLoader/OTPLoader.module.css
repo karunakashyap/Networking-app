@@ -30,7 +30,12 @@
 .resendBtn {
   margin-left: 176px;
   margin-top: -252px;
-  color: #2B8CA7;
+  color:#2B8CA7;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .secText {

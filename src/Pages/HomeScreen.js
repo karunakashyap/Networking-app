@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import MobileHomeScreen from '../Components/Mobile/MobileHomeScreen';
+import MobileHomeScreen from '../Components/Mobile/HomeScreenHeader/MobileHomeScreen';
 import DesktopHomeScreen from '../Components/Desktop/DesktopHomeScreen'
 import GlobalStyles from '../app/Globalstyle';
 const ResponsiveScreen = () => {

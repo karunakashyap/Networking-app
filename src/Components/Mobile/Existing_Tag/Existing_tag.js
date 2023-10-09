@@ -40,7 +40,7 @@ const Existing_tag = () => {
   return (
     <div>
       <GlobalStyles />
-      <div style={{ color: '#484848', width: '200px', fontSize: '25px', marginLeft: '190px', marginTop: '90px', fontWeight: '600' }}>
+      <div style={{ color: '#484848',  fontSize: '25px',  marginTop: '90px', fontWeight: '600',display:'flex',justifyContent:'center',textAlign:'center' }}>
         <h1>Select Tag</h1>
       </div>
       <AllTag tags={selectedTags} removeTag={removeTag} />

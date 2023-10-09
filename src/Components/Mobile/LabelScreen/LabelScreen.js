@@ -40,7 +40,7 @@ const LabelScreen = () => {
   return (
     <div>
       <ProfileName />
-      <div style={{marginTop:'60px'}}>
+      <div >
         <AllTag tags={selectedTags} removeTag={removeTag} />
         <DropDown selectTagOption={selectTagOption} />
         <NextButton />
