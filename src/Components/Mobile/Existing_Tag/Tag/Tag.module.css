@@ -1,25 +1,37 @@
-.tagContent {
-    width: 117px;
-    height: 35px;
-    padding: 17px;
-    background-color: rgba(193, 155, 71, 1);
-    
-    border-radius: 30px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    position: relative;
-    top:120px;
+.tag {
+  background: rgba(193, 155, 71, 1);
+  border-radius: 30px;
+  margin: 10px;
 }
-.tagContent p{
-    margin-top: -8px;
-   color: #FFF;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: -4px;
+.hideIcon{
+  display: none;
 }
-.tagContent .cancelIcon{
-    margin-left: 67px;
-    margin-top: -20px;
+.taglist{
+  background: rgba(193, 155, 71, 1);
+  float: left;
+  border-radius: 20px;
+  margin: 10px;
+
+}
+.taglist p {
+  
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-top: 6px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+}
+.tag {
+   border-radius: 20px;
+  color: #999;
+  height: 26px;
+  padding: 0 20px 0 23px;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
 }

@@ -1,0 +1,56 @@
+.optNumberData {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 360px;
+
+}
+
+.optHeading {
+    color: #353D48;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -12px;
+}
+
+.optNumber input {
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    border: 0px solid #484848;
+    background: #EDEDED;
+    margin-top: 13px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.optNumber {
+    display: flex;
+    width: 315px;
+    margin-left: -25px;
+}
+
+.resendCode {
+    margin-left: 141px;
+    margin-top: 13px;
+}
+
+.resendCode h1 {
+    color: #353D48;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.resendCode span {
+    color: #2B8CA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

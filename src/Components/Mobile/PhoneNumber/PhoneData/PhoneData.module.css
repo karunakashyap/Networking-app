@@ -1,0 +1,30 @@
+.allPhoneData{
+    width: 360px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.phoneData h1{
+    color: #353D48;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 10px;
+margin-left: 15px;
+}
+.phoneData span{
+    color: #2B8CA7;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.inputLink input{
+    width: 315px;
+    height: 45px;
+    background-color: #EDEDED;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 50px;
+    /* margin-top: 10px; */
+}

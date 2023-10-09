@@ -3,11 +3,7 @@ import HomeScreen from './HomeScreen';
 const index = () => {
   return (
     <div>
-
-      
-      <HomeScreen />  
-      
-
+    <HomeScreen />  
     </div>
   )
 }
