@@ -15,7 +15,7 @@ const SignIcon = () => {
         <div className="...">
           <div className={styles.googleIcon}>
             <button>
-              <img src='/facebook-icon.svg'></img>
+              <img src='/google-icon.svg'></img>
             </button>
           </div>
         </div>
