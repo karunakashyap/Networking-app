@@ -16,6 +16,7 @@ const ChatPopUp = () => {
         '/troly-icon-gray.svg',
         '/sell-icon-gray.svg',
         '/create-report-gray.svg',
+        '/create-report-gray.svg',
         '/Report-icon-gray.svg',
         '/video-icon-gray.svg',
         '/photo-icon.svg'
@@ -24,7 +25,8 @@ const ChatPopUp = () => {
         '/place-order-icon-blue.svg',
         '/troly-icon-blue.svg',
         '/sell-icon-blue.svg',
-        '/create-report-blue.svg',
+        '/blue-create-report-icon.svg',
+        '/blue-create-report-icon.svg',
         '/Report-icon-blue.svg',
         '/video-icon-blue.svg',
         '/Photo-icon-blue.svg'
