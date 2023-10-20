@@ -1,10 +1,10 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import styles from './GivenTags.module.css'
 import GlobalStyles from '../../../../app/Globalstyle';
-
-const GivenTags = () => {
-    const[locationSrc,setLocationScr]=useState('location-blue-icon.svg');
-    const[fillIconScr,setFillIconScr]=useState('fill-tag-grey-icon.svg')
+import ClearAll from '../ClearAll/ClearAll';
+import Apply from '../Apply/Apply';
+const GivenTags = ({ showButton, applybuttonBackground, clearButtonBackground, locationSrc, fillIconScr, changeSrc,
+    changeFillSrc, changeColor, changeApplyButtonColor }) => {
     const [selectedTags, setSelectedTags] = useState([
         {
             "title": "Developer1",
@@ -38,17 +38,9 @@ const GivenTags = () => {
         ];
         setSelectedTags(tags)
     }
-    const changeSrc=()=>{
-        setLocationScr('/location-blue-icon.svg')
-        setFillIconScr('/fill-tag-grey-icon.svg')
-    }
-    const changeFillSrc=()=>{
-        setFillIconScr('/fill-tag-blue-icon.svg')
-        setLocationScr('/location-grey-icon.svg')
-    }
     return (
         <div>
-            <GlobalStyles/>
+            <GlobalStyles />
             <div className={styles.backArrow} >
                 <img src='back-arrow-icon-blue.svg'></img>
 
@@ -62,9 +54,16 @@ const GivenTags = () => {
                 </div>
 
             </div>
-            {/* <AllTag tags={selectedTags} removeTag={removeTag} />
-            <DropDown selectTagOption={selectTagOption} /> */}
-
+            {showButton ?
+                <div style={{
+                    position: 'fixed', left: '50%', transform: 'translateX(-50%)', bottom: '10px', width: '80vw', display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center'
+                }}>
+                    <ClearAll bgcolor={clearButtonBackground} onclickMethod={changeColor} />
+                    <Apply bgcolor={applybuttonBackground} onclickMethodApply={changeApplyButtonColor} />
+                </div> : ''
+            }
         </div>
     )
 }

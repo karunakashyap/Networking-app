@@ -1,0 +1,13 @@
+.applyButton{
+    color: #FFF;
+    border-radius: 25px;
+    padding-left:25px;
+    padding-right: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* left: 150px;
+    position: fixed; */
+    bottom: 10px; /* Adjust as needed */
+    position: relative;
+    right: 20px;
+}

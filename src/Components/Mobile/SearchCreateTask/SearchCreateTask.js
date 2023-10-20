@@ -22,7 +22,7 @@ const SearchCreateTask = () => {
           "chat_image_url": "/person-icon.svg",
           "members_image_url": [
             "/profile-image2.svg",
-            
+
           ],
           "member_user_ids": [1, 2],
           "time_ago": "2 minutes ago",
@@ -102,9 +102,9 @@ const SearchCreateTask = () => {
     const a = [...selectedTags];
     a.splice(index, 1)
     setSelectedTags(a)
-}
+  }
   const selectTagOption = (optionValue) => {
-  const tags = [
+    const tags = [
       ...selectedTags,
       {
         title: optionValue.title,
@@ -113,8 +113,8 @@ const SearchCreateTask = () => {
     ];
     setSelectedTags(tags)
   }
-  const[searchedBar,setSearchedBar]=useState(true)
-  const[showMembers, setShowMembers]=useState(false);
+  const [searchedBar, setSearchedBar] = useState(true)
+  const [showMembers, setShowMembers] = useState(false);
   const handleClick = () => {
     setShowMembers(true);
     setActiveTasks(false)
@@ -125,21 +125,25 @@ const SearchCreateTask = () => {
     setMembersIconUrl('/members-icon-blue.svg')
     setChatsIcon('/chat-yellow-icon.svg')
     setTasksIcon('/tasks-icon-blue.svg')
+    setBottom('30px')
+    setIconBottomSet('0px')
 
 
   };
-  const[giveTag,setGivenTag]=useState(false)
-  const showGivenTag=()=>{
-      setGivenTag(true)
-      setSearchedBar(false)
-      setShowMembers(false)
-      setActiveTasks(false)
-      setRecentSearched(false)
-      setSearchProfile(false)
-      setFilterIconUrl('/filter-yellow-icon1.svg')
-      setMembersIconUrl('/members-icon-blue.svg')
-      setChatsIcon('/chat-blue-icon.svg')
-      setTasksIcon('/tasks-icon-blue.svg')
+  const [giveTag, setGivenTag] = useState(false)
+  const showGivenTag = () => {
+    setGivenTag(true)
+    setSearchedBar(false)
+    setShowMembers(false)
+    setActiveTasks(false)
+    setRecentSearched(false)
+    setSearchProfile(false)
+    setFilterIconUrl('/filter-yellow-icon1.svg')
+    setMembersIconUrl('/members-icon-blue.svg')
+    setChatsIcon('/chat-blue-icon.svg')
+    setTasksIcon('/tasks-icon-blue.svg')
+    setBottom('30px')
+    setIconBottomSet('0px')
 
 
   }
@@ -154,13 +158,15 @@ const SearchCreateTask = () => {
     setMembersIconUrl('/members-icon-blue.svg')
     setChatsIcon('/chat-blue-icon.svg')
     setTasksIcon('/tasks-icon-yellow.svg')
+    setBottom('30px')
+    setIconBottomSet('0px')
 
   };
-  const getInputValue=(value)=>{
-         setInputValue(value)
+  const getInputValue = (value) => {
+    setInputValue(value)
   }
-  const[searchProfile,setSearchProfile]=useState(false)
-  const showSearchProfile=()=>{
+  const [searchProfile, setSearchProfile] = useState(false)
+  const showSearchProfile = () => {
     setSearchProfile(false)
     setGivenTag(false);
     setActiveTasks(false)
@@ -171,44 +177,82 @@ const SearchCreateTask = () => {
     setMembersIconUrl('/members-icon-yellow.svg')
     setChatsIcon('/chat-blue-icon.svg')
     setTasksIcon('/tasks-icon-blue.svg')
+    setBottom('30px')
+    setIconBottomSet('0px')
 
   }
-  const[recentSearched,setRecentSearched]=useState(true);
-  const[filterIconUrl,setFilterIconUrl]=useState('/filter-blue-icon1.svg');
-  const[membersIconUrl,setMembersIconUrl]=useState('/members-icon-yellow.svg');
-  const[chatsIcon,setChatsIcon]=useState('/chat-blue-icon.svg');
-  const[tasksIcon,setTasksIcon]=useState('/tasks-icon-blue.svg')
-return (
+  const [recentSearched, setRecentSearched] = useState(true);
+  const [filterIconUrl, setFilterIconUrl] = useState('/filter-blue-icon1.svg');
+  const [membersIconUrl, setMembersIconUrl] = useState('/members-icon-yellow.svg');
+  const [chatsIcon, setChatsIcon] = useState('/chat-blue-icon.svg');
+  const [tasksIcon, setTasksIcon] = useState('/tasks-icon-blue.svg')
+  const [bottom, setBottom] = useState('30px');
+  const [iconBottomset, setIconBottomSet] = useState('0px')
+  const [showButton, setShowButton] = useState(false);
+  const [applybuttonBackground, setApplyButtonBackground] = useState('white')
+  const [clearButtonBackground, setClearButtonBackground] = useState('#2B8CA7');
+  const [locationSrc, setLocationScr] = useState('location-blue-icon.svg');
+  const [fillIconScr, setFillIconScr] = useState('fill-tag-grey-icon.svg')
+  const changeSrc = () => {
+    setLocationScr('/location-blue-icon.svg')
+    setFillIconScr('/fill-tag-grey-icon.svg')
+    setShowButton(false)
+    setBottom('30px')
+    setIconBottomSet('0px')
+  }
+  const changeFillSrc = () => {
+    setFillIconScr('/fill-tag-blue-icon.svg')
+    setLocationScr('/location-grey-icon.svg')
+    setShowButton(true)
+    setApplyButtonBackground('#D9D9D9')
+    setClearButtonBackground('#2B8CA7')
+    setBottom('100px')
+    setIconBottomSet('70px')
+  }
+  const changeColor = () => {
+    setApplyButtonBackground('#D9D9D9')
+    setClearButtonBackground('#2B8CA7')
+  }
+  const changeApplyButtonColor = () => {
+    setApplyButtonBackground('#2B8CA7')
+    setClearButtonBackground('#D9D9D9')
+  }
+  return (
     <div>
-      { searchedBar && <SearchBar inputValue={inputValue} getvalue={getInputValue}/>}
-      {showMembers?
-      chatListMember.data.chats.map((chat,index) => (
-        <div key={index}>
-          <ChatMember title={chat.chat_title} name={chat.chat_user_name}
-            chatImageUrl={chat.chat_image_url}
-            memberImages={chat.members_image_url} inputValue={inputValue}/>
-        </div>
-      )):``}
-      {activetasks?chatListMember.data.chats.map((chat,index1) => (
+      {searchedBar && <SearchBar inputValue={inputValue} getvalue={getInputValue} />}
+
+      {showMembers ?
+        chatListMember.data.chats.map((chat, index) => (
+          <div key={index}>
+            <ChatMember title={chat.chat_title} name={chat.chat_user_name}
+              chatImageUrl={chat.chat_image_url}
+              memberImages={chat.members_image_url} inputValue={inputValue} />
+          </div>
+        )) : ``}
+      {activetasks ? chatListMember.data.chats.map((chat, index1) => (
         <div key={index1}>
           <ChatMember title={chat.chat_title} name={chat.chat_user_name}
-           chatImageUrl={chat.chat_image_url}
-            memberImages={chat.members_image_url} inputValue={inputValue}/>
+            chatImageUrl={chat.chat_image_url}
+            memberImages={chat.members_image_url} inputValue={inputValue} />
         </div>
-      )) :``}
-      {giveTag?
-      <div>
-      <GivenTags/>
-      <AllTag tags={selectedTags} removeTag={removeTag} />
-      <DropDown selectTagOption={selectTagOption} />
-      </div>
-      :``}
+      )) : ``}
+      {giveTag ?
+        <div>
+          <GivenTags showButton={showButton} applybuttonBackground={applybuttonBackground} clearButtonBackground={clearButtonBackground}
+            locationSrc={locationSrc} fillIconScr={fillIconScr} changeSrc={changeSrc} changeFillSrc={changeFillSrc}
+            changeColor={changeColor} changeApplyButtonColor={changeApplyButtonColor} />
+          <AllTag tags={selectedTags} removeTag={removeTag} />
+          <DropDown selectTagOption={selectTagOption} />
+        </div>
+        : ``}
       {inputValue.length > 0 && <SearchedProfile query={inputValue} />}
-      {recentSearched && <RecentSearch/>}
+      {recentSearched && <RecentSearch />}
 
-      <SearchIcon  showMembers={handleClick} showTasks={handleTask} showGivenTag={showGivenTag} 
-      showSearchProfile={showSearchProfile} filterIconUrl={filterIconUrl} membersIconUrl={membersIconUrl}
-      chatsIcon={chatsIcon} tasksIcon={tasksIcon}/>
+      <SearchIcon showMembers={handleClick} showTasks={handleTask} showGivenTag={showGivenTag}
+        showSearchProfile={showSearchProfile} filterIconUrl={filterIconUrl} membersIconUrl={membersIconUrl}
+        chatsIcon={chatsIcon} tasksIcon={tasksIcon} bottomSet={bottom} iconBottomset={iconBottomset} />
+
+
     </div>
   )
 }
