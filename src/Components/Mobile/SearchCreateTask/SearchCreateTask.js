@@ -7,6 +7,8 @@ import DropDown from '../Existing_Tag/DropDown/DropDown';
 import AllTag from '../Existing_Tag/AllTag/AllTag';
 import SearchedProfile from './SearchedProfile/SearchedProfile';
 import RecentSearch from './RecentSearch/RecentSearch';
+import ClearAll from './ClearAll/ClearAll';
+import Apply from './Apply/Apply';
 const SearchCreateTask = () => {
   const chatListMember = {
     "error_code": 0,
@@ -142,8 +144,10 @@ const SearchCreateTask = () => {
     setMembersIconUrl('/members-icon-blue.svg')
     setChatsIcon('/chat-blue-icon.svg')
     setTasksIcon('/tasks-icon-blue.svg')
-    setBottom('30px')
-    setIconBottomSet('0px')
+    setBottom('100px')
+    setIconBottomSet('70px')
+    setShowButton(true)
+
 
 
   }
@@ -188,34 +192,42 @@ const SearchCreateTask = () => {
   const [tasksIcon, setTasksIcon] = useState('/tasks-icon-blue.svg')
   const [bottom, setBottom] = useState('30px');
   const [iconBottomset, setIconBottomSet] = useState('0px')
-  const [showButton, setShowButton] = useState(false);
-  const [applybuttonBackground, setApplyButtonBackground] = useState('white')
-  const [clearButtonBackground, setClearButtonBackground] = useState('#2B8CA7');
+  const [showButton, setShowButton] = useState(true);
+  const [applybuttonBackground, setApplyButtonBackground] = useState('#2B8CA7')
+  const [clearButtonBackground, setClearButtonBackground] = useState('#D9D9D9');
   const [locationSrc, setLocationScr] = useState('location-blue-icon.svg');
-  const [fillIconScr, setFillIconScr] = useState('fill-tag-grey-icon.svg')
+  const [fillIconScr, setFillIconScr] = useState('fill-tag-grey-icon.svg');
+  const [showTags, setShowTags] = useState(true)
   const changeSrc = () => {
     setLocationScr('/location-blue-icon.svg')
     setFillIconScr('/fill-tag-grey-icon.svg')
-    setShowButton(false)
-    setBottom('30px')
-    setIconBottomSet('0px')
+    setBottom('100px')
+    setIconBottomSet('70px')
   }
   const changeFillSrc = () => {
     setFillIconScr('/fill-tag-blue-icon.svg')
     setLocationScr('/location-grey-icon.svg')
-    setShowButton(true)
     setApplyButtonBackground('#D9D9D9')
-    setClearButtonBackground('#2B8CA7')
+    setClearButtonBackground('#D9D9D9')
     setBottom('100px')
     setIconBottomSet('70px')
   }
   const changeColor = () => {
     setApplyButtonBackground('#D9D9D9')
-    setClearButtonBackground('#2B8CA7')
+    setClearButtonBackground('#2B8CA7');
+    setShowTags(false)
   }
   const changeApplyButtonColor = () => {
     setApplyButtonBackground('#2B8CA7')
     setClearButtonBackground('#D9D9D9')
+    setSearchProfile(false)
+    setGivenTag(false);
+    setActiveTasks(false)
+    setSearchedBar(true)
+    setRecentSearched(true)
+    setShowMembers(false)
+    setBottom('30px')
+    setIconBottomSet('0px')
   }
   return (
     <div>
@@ -241,18 +253,25 @@ const SearchCreateTask = () => {
           <GivenTags showButton={showButton} applybuttonBackground={applybuttonBackground} clearButtonBackground={clearButtonBackground}
             locationSrc={locationSrc} fillIconScr={fillIconScr} changeSrc={changeSrc} changeFillSrc={changeFillSrc}
             changeColor={changeColor} changeApplyButtonColor={changeApplyButtonColor} />
-          <AllTag tags={selectedTags} removeTag={removeTag} />
+          {showTags && <AllTag tags={selectedTags} removeTag={removeTag} />}
           <DropDown selectTagOption={selectTagOption} />
+          {
+            <div style={{
+              position: 'fixed', left: '50%', transform: 'translateX(-50%)', bottom: '10px', width: '80vw', display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}>
+
+              <ClearAll bgcolor={clearButtonBackground} onclickMethod={changeColor} />
+              <Apply bgcolor={applybuttonBackground} onclickMethodApply={changeApplyButtonColor} />
+            </div>}
         </div>
         : ``}
       {inputValue.length > 0 && <SearchedProfile query={inputValue} />}
       {recentSearched && <RecentSearch />}
-
       <SearchIcon showMembers={handleClick} showTasks={handleTask} showGivenTag={showGivenTag}
         showSearchProfile={showSearchProfile} filterIconUrl={filterIconUrl} membersIconUrl={membersIconUrl}
         chatsIcon={chatsIcon} tasksIcon={tasksIcon} bottomSet={bottom} iconBottomset={iconBottomset} />
-
-
     </div>
   )
 }

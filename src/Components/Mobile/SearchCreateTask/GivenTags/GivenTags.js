@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import styles from './GivenTags.module.css'
 import GlobalStyles from '../../../../app/Globalstyle';
-import ClearAll from '../ClearAll/ClearAll';
-import Apply from '../Apply/Apply';
-const GivenTags = ({ showButton, applybuttonBackground, clearButtonBackground, locationSrc, fillIconScr, changeSrc,
-    changeFillSrc, changeColor, changeApplyButtonColor }) => {
+const GivenTags = ({ locationSrc, fillIconScr, changeSrc,
+    changeFillSrc }) => {
     const [selectedTags, setSelectedTags] = useState([
         {
             "title": "Developer1",
@@ -54,16 +52,6 @@ const GivenTags = ({ showButton, applybuttonBackground, clearButtonBackground, l
                 </div>
 
             </div>
-            {showButton ?
-                <div style={{
-                    position: 'fixed', left: '50%', transform: 'translateX(-50%)', bottom: '10px', width: '80vw', display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center'
-                }}>
-                    <ClearAll bgcolor={clearButtonBackground} onclickMethod={changeColor} />
-                    <Apply bgcolor={applybuttonBackground} onclickMethodApply={changeApplyButtonColor} />
-                </div> : ''
-            }
         </div>
     )
 }
