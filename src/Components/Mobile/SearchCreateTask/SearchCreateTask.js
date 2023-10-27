@@ -194,7 +194,7 @@ const SearchCreateTask = () => {
   const [iconBottomset, setIconBottomSet] = useState('0px')
   const [showButton, setShowButton] = useState(true);
   const [applybuttonBackground, setApplyButtonBackground] = useState('#2B8CA7')
-  const [clearButtonBackground, setClearButtonBackground] = useState('#D9D9D9');
+  const [clearButtonBackground, setClearButtonBackground] = useState('#2B8CA7');
   const [locationSrc, setLocationScr] = useState('location-blue-icon.svg');
   const [fillIconScr, setFillIconScr] = useState('fill-tag-grey-icon.svg');
   const [showTags, setShowTags] = useState(true)
@@ -213,8 +213,8 @@ const SearchCreateTask = () => {
     setIconBottomSet('70px')
   }
   const changeColor = () => {
-    setApplyButtonBackground('#D9D9D9')
-    setClearButtonBackground('#2B8CA7');
+    setApplyButtonBackground('#2B8CA7')
+    setClearButtonBackground('#D9D9D9');
     setShowTags(false)
   }
   const changeApplyButtonColor = () => {
