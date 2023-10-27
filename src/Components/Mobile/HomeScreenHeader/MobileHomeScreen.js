@@ -8,10 +8,15 @@ import GlobalStyles from '../../../app/Globalstyle'
 import Assign_point from '../Assignable_point/Assign_point'
 import styles from './MobileHomeScreen.module.css'
 import Avatar from '../../Common/Avatar/Avatar';
+import HomeScreenAllTasks from './HomeScreenAllTasks/HomeScreenAllTasks';
 
 const Mobile = () => {
     const [data, setData] = useState(styles.showData);
     const [networkScreen, setNetworkScreen] = useState(styles.hideData)
+    const [taskcolor,setTaskColor]=useState();
+    const [taskIcon,setTaskIcon]=useState('/task.svg');
+    const [opacity,setOpacity]=useState('1')
+    const [showTasks,setShowTasks]=useState(false)
     const manageheader = () => {
         setData(styles.hideData)
         setNetworkScreen(styles.showData)
@@ -20,6 +25,12 @@ const Mobile = () => {
         e.preventDefault();
         setData(styles.showData)
         setNetworkScreen(styles.hideData)
+    }
+    const changeTaskColor=()=>{
+        setTaskColor('#FFF')
+        setTaskIcon('/task-white-icon.svg')
+        setOpacity('0.3')
+        setShowTasks(true)
     }
     return (
         <>
@@ -37,7 +48,7 @@ const Mobile = () => {
                 </div>
             </div>
             <div >
-                < div className={networkScreen}>
+                < div className={networkScreen} style={{opacity:opacity}}>
                 <div style={{width:'10%',height:'100vh'}} onClick={handleChild}></div>
                 <div className={styles.innerdiv}>
                         <div className={styles.animate}>
@@ -55,7 +66,7 @@ const Mobile = () => {
                             </div>
                             <div>
                                 <h1 style={{ marginTop: '60px', marginLeft: '40px', color: '#FFF', fontSize: '20px', fontWeight: '500' }}>My Network</h1>
-                                <ul className={styles.allListData}>
+                                <ul className={styles.allListData} >
                                     <li className={styles.menulist}   >
                                         <div className={styles.menuDiv} >
                                             <div >
@@ -68,11 +79,11 @@ const Mobile = () => {
                                     </li>
                                     <li className={styles.menulist}   >
                                         <div className={styles.menuDiv} >
-                                            <div >
+                                            <div style={{color:taskcolor}} onClick={changeTaskColor}>
                                                 Task
 
                                             </div>
-                                            <img src='/task.svg'></img>
+                                            <img src={taskIcon}></img>
                                         </div>
 
                                     </li>
@@ -131,7 +142,10 @@ const Mobile = () => {
 
                             </div>
                         </div>
+
                     </div>
+                    {showTasks && <HomeScreenAllTasks/>}
+
                 </div>
             </div>
         </>

@@ -1,0 +1,51 @@
+.showTasks {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #D3D3D3;
+    width: 90%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    /* height: 157px; */
+}
+.allTasks{
+    margin-top: 70px;
+}
+.allTasks ul{
+    position: relative;
+    top: -35px;
+}
+.allTasks ul li {
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.allTasks {
+    animation: fadeIn 1s ease-in-out, changeHeight 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.30;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes changeHeight {
+    0% {
+        max-height: 0px;
+    }
+
+    100% {
+        max-height: 157px;
+    }
+}
