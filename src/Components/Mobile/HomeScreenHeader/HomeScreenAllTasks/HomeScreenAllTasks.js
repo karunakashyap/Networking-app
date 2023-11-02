@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React, { use, useState } from 'react';
 import styles from './HomeScreenAllTasks.module.css'
 
-const HomeScreenAllTasks = () => {
-    const [editTaskcolor,setEditTaskColor] = useState('')
-    const editTask=()=>{
-        setEditTaskColor('#2B8CA7')
-    }
+const HomeScreenAllTasks = ({ editTask }) => {
+
     return (
         <div >
             <div className={styles.showTasks}>
@@ -13,7 +10,7 @@ const HomeScreenAllTasks = () => {
                     <ul>
                         <li>All Tasks</li>
                         <li>My Tasks</li>
-                        <li onClick={editTask} style={{color:editTaskcolor}}>Edit Tasks</li>
+                        <li onClick={editTask} className={styles.editTask}>Edit Tasks</li>
                     </ul>
                 </div>
             </div>
