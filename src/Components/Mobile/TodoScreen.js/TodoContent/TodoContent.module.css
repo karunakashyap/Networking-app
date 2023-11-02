@@ -1,0 +1,40 @@
+.todoContent li {
+     width: 100%;
+    padding: 10px;
+}
+.todoContent li:hover{
+    background-color: #D3D3D3;
+    padding-bottom: 45px;
+}
+.todoNotification{
+    display: flex;
+}
+.todoContent li p {
+    color: #14140F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 240px;
+}
+.todoContent li img{
+    margin-left: 18px;
+}
+.todoContent{
+    margin-top: 20px;
+}
+.hideIcon{
+   display: none;
+   float: right;
+   /* margin-right:70px; */
+   margin-top: 5px;
+   width: 45%;
+}
+.todoContent li:hover .hideIcon{
+    display: block;
+}
+.hideIcon img:hover{
+    color: #2B8CA7;
+}
