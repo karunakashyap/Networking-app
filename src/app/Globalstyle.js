@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
      font-family:Inter;
  }
 `
+
 export default GlobalStyles;
 
 // @import url('https://fonts.googleapis.com/css?family=Inter');

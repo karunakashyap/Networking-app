@@ -3,12 +3,10 @@ import './index';
 
 export default function MyApp({ Component, pageProps }) {
   return (
-   <>
-      {/* <Avatar></Avatar> */}
+   <div>
       <Component {...pageProps} />
-      {/* <Footer /> */}
 
-    </>
+    </div>
 
   );
 }
