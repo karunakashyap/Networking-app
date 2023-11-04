@@ -3,7 +3,7 @@ import MemberListFooter from '../MemberList/MemberListFooter/MemberListFooter'
 import TodoHeader from './TodoHeader/TodoHeader'
 import TodoContent from './TodoContent/TodoContent'
 import GlobalStyles from '../../../app/Globalstyle'
-import AssignTask from '../../AssignTask/AssignTask'
+import AssignTask from '../AssignTask/AssignTask'
 
 const TodoScreen = () => {
   const [plusDublicateIcon,setPlusDublicateIcon]=useState('/plus-duplicate.svg');
@@ -18,7 +18,7 @@ const TodoScreen = () => {
         setPlusDublicateIcon('/plus-duplicate.svg')
         setAssignTaskScreen(true)
     }
-
+  const [bottom,setBottom]=useState('-10px')
   return (
     <div >
        <GlobalStyles />
@@ -30,7 +30,7 @@ const TodoScreen = () => {
      
       <TodoHeader />
       <TodoContent  Invite={Invite} plusDublicate={plusDublicate} plusDublicateIcon={plusDublicateIcon} invite={invite}/>
-      <MemberListFooter />
+      <MemberListFooter bottom={bottom} />
       </div>
       )
 }

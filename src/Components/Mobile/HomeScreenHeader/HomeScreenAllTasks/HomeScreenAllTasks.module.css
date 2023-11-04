@@ -7,13 +7,15 @@
     position: absolute;
 }
 
-.allTasks{
+.allTasks {
     margin-top: 70px;
 }
-.allTasks ul{
+
+.allTasks ul {
     position: relative;
     top: -35px;
 }
+
 .allTasks ul li {
     color: #FFF;
     margin-left: 50px;
@@ -22,15 +24,17 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
+
 }
 
 .allTasks {
     animation: fadeIn 1s ease-in-out, changeHeight 1s ease-in-out forwards;
 }
-.allTasks .editTask:hover{
-    color:#2B8CA7;
+
+.allTasks .editTask:hover {
+    color: #2B8CA7;
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0.30;

@@ -1,0 +1,58 @@
+.profileContent {
+    display: flex;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profileData h1 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.profileData p {
+    color: #C19B47;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+
+}
+
+.profileData button {
+    /* padding: 5px; */
+    width: 60px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14.5px;
+    background: #D3D3D3;
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10;
+}
+.profileData{
+    margin-left: 10px;
+}
+.supplyButton{
+    margin-left: -10px;
+    margin-top: 15px;
+    display: flex;
+}
+.supplyButton .squareCheckBox{
+     margin-left: 20px;
+    margin-top: -15px;
+    position: relative;
+}
+.taskMemberName{
+    display: flex;
+    width: 100%;
+}
+.taskMemberName h1{
+    width: 90%;
+}

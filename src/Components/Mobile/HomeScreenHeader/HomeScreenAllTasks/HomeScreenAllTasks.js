@@ -10,7 +10,7 @@ const HomeScreenAllTasks = ({ editTask }) => {
                     <ul>
                         <li>All Tasks</li>
                         <li>My Tasks</li>
-                        <li onClick={editTask} className={styles.editTask}>Edit Tasks</li>
+                        <li onMouseEnter={editTask} className={styles.editTask}>Edit Tasks</li>
                     </ul>
                 </div>
             </div>

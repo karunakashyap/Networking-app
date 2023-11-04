@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './NotificationHeader.module.css';
 const NotificationHeader = (props) => {
-    console.log(props)
 return (
         <div>
             <div className={styles.notificationHeader} style={{width:'90%'}} >

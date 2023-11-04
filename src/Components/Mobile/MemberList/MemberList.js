@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GlobalStyles from '../../../app/Globalstyle';
 import NotificationHeader from '../Notification/NotificationHeader/NotificationHeader';
 import MemberListFooter from './MemberListFooter/MemberListFooter';
@@ -79,12 +79,12 @@ const MemberList = () => {
       "is_prev_page": true
     }
   }
-
+const [bottom,setBottom]=useState('-10px')
   return (
     <div>
       <GlobalStyles />
       <NotificationHeader text="Chatrooms" />
-      <MemberListFooter />
+      <MemberListFooter bottom={bottom}/>
       <div style={{ paddingTop: '30px' }}></div>
       {chatListMember.data.chats.map((chat,index) => (
         <div key={index}>

@@ -40,128 +40,128 @@ const Mobile = () => {
     return (
         <>
             <div>
-                <GlobalStyles/>
+                <GlobalStyles />
                 {showTodoScreen ? <TodoScreen /> : (
                     <div>
-                <div>
-                    <div className={data}>
-                        <div  >
-                            <HomeScreenHeader onClick={manageheader} />
+                        <div>
+                            <div className={data}>
+                                <div  >
+                                    <HomeScreenHeader onClick={manageheader} />
+                                </div>
+                                <Todo />
+                                <Approve />
+                                <Point_task />
+                                <Assign_point />
+                                <Footer />
+                            </div>
                         </div>
-                        <Todo />
-                        <Approve />
-                        <Point_task />
-                        <Assign_point />
-                        <Footer />
-                    </div>
-                </div>
-                <div >
-                    < div className={networkScreen} style={{ opacity: opacity }}>
-                        <div style={{ width: '10%', height: '100vh' }} onClick={handleChild}></div>
-                        <div className={styles.innerdiv}>
-                            <div className={styles.animate}>
-                                <div className={styles.avatarData}>
-                                    <div className={styles.avatarDataImg}>
-                                        <div className="grid grid-cols-2">
-                                            <div className="...">
-                                                <Avatar />
-                                            </div>
-                                            <div className="...">
-                                                <h2>Kapil <br></br> Sharma</h2>
+                        <div >
+                            < div className={networkScreen} style={{ opacity: opacity }}>
+                                <div style={{ width: '10%', height: '100vh' }} onClick={handleChild}></div>
+                                <div className={styles.innerdiv}>
+                                    <div className={styles.animate}>
+                                        <div className={styles.avatarData}>
+                                            <div className={styles.avatarDataImg}>
+                                                <div className="grid grid-cols-2">
+                                                    <div className="...">
+                                                        <Avatar />
+                                                    </div>
+                                                    <div className="...">
+                                                        <h2>Kapil <br></br> Sharma</h2>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div>
+                                            <h1 style={{ marginTop: '60px', marginLeft: '40px', color: '#FFF', fontSize: '20px', fontWeight: '500' }}>My Network</h1>
+                                            <ul className={styles.allListData} >
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            Create Task
+
+                                                        </div>
+                                                        <img src='/create icon (1).svg'></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div style={{ color: taskcolor }} onClick={changeTaskColor}>
+                                                            Task
+
+                                                        </div>
+                                                        <img src={taskIcon}></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            My Points
+
+                                                        </div>
+                                                        <img src='/dollar-icon3.svg'></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            Notification
+
+                                                        </div>
+                                                        <img src='/bell-icon.svg'></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            Members
+
+                                                        </div>
+                                                        <img src='/group-icon.svg'></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            Chatrooms
+
+                                                        </div>
+                                                        <img src='/chat-icon.svg'></img>
+                                                    </div>
+
+                                                </li>
+                                                <li className={styles.menulist}   >
+                                                    <div className={styles.menuDiv} >
+                                                        <div >
+                                                            Setting
+
+                                                        </div>
+                                                        <img src='/setting.svg' />
+                                                    </div>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
                                     </div>
-                                </div>
-                                <div>
-                                    <h1 style={{ marginTop: '60px', marginLeft: '40px', color: '#FFF', fontSize: '20px', fontWeight: '500' }}>My Network</h1>
-                                    <ul className={styles.allListData} >
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    Create Task
-
-                                                </div>
-                                                <img src='/create icon (1).svg'></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div style={{ color: taskcolor }} onClick={changeTaskColor}>
-                                                    Task
-
-                                                </div>
-                                                <img src={taskIcon}></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    My Points
-
-                                                </div>
-                                                <img src='/dollar-icon3.svg'></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    Notification
-
-                                                </div>
-                                                <img src='/bell-icon.svg'></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    Members
-
-                                                </div>
-                                                <img src='/group-icon.svg'></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    Chatrooms
-
-                                                </div>
-                                                <img src='/chat-icon.svg'></img>
-                                            </div>
-
-                                        </li>
-                                        <li className={styles.menulist}   >
-                                            <div className={styles.menuDiv} >
-                                                <div >
-                                                    Setting
-
-                                                </div>
-                                                <img src='/setting.svg' />
-                                            </div>
-
-                                        </li>
-
-                                    </ul>
 
                                 </div>
+                                {showTasks && <HomeScreenAllTasks editTask={editTask} />}
+
+
                             </div>
-
                         </div>
-                        {showTasks && <HomeScreenAllTasks editTask={editTask}  />}
-
-
                     </div>
-                </div>
-                </div>
-)}
+                )}
             </div>
         </>
-                
+
     )
 }
 

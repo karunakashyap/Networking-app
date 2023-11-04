@@ -27,11 +27,6 @@ const TodoHeader = () => {
                     <h1 className={styles.todoHeading} style={{ marginLeft: '12px',borderBottom:borderBottomTodo,paddingBottom:'6px' }} onMouseEnter={underlineTodo}>To Do</h1>
                     <h1 className={styles.approveHeading} style={{ position: 'relative', left: '20%',borderBottom:borderBottomApprove,paddingBottom:'6px' }} onMouseEnter={underlineApprove}>To Approve</h1>
                 </div>
-                {/* <div style={{ width: '80%',marginLeft:'10%',display:'flex',justifyContent:'center' }}>
-                    <div className={styles.uderlinediv} style={{ marginLeft: underlineMargin, width: underlineWidth }}>
-
-                    </div>
-                </div> */}
 
             </div>
 
