@@ -6,7 +6,7 @@
 
  .point img {
      margin-left: 93px;
-     margin-top: -16px;
+     margin-top: -20px;
  }
 
  .point p:first-child+p {
@@ -21,7 +21,7 @@
 
  .allpoints img {
      margin-left: 26px;
-     margin-top: -15px;
+     margin-top: -19px;
 
  }
 
@@ -34,6 +34,6 @@
 
  .pointTask {
      margin-left: 900px;
-     margin-top: -161px;
+     margin-top: -182px;
      width: 400px;
  }

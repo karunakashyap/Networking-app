@@ -1,7 +1,7 @@
 .sidebar {
   height: 678px;
   width: 320px;
-  background-color: rgba(52, 103, 92, 1);
+  background-color: rgba(43, 140, 167, 1);
   border-radius: 0px 75.5px 75.5px 0px;
   position: absolute;
   top: 0px;
@@ -9,7 +9,7 @@
 }
 
 .sidebarHeading {
-  color: white;
+  color: #FFF;
   font-size: 20px;
   position: relative;
   top: 40px;
@@ -19,7 +19,7 @@
 
 .sidebarMenu {
   margin-left: 60px;
-  color: white;
+  color: #FFF;
 }
 
 .sidebarMenu p {

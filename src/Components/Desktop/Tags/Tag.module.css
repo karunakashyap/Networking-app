@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    background-color: rgba(52, 103, 92, 1);
+    background-color: rgba(43, 140, 167, 1);
     overflow: hidden;
 }
 
@@ -33,7 +33,7 @@
     font-size: 12px;
     padding: 5px 14px;
     margin: 10px;
-    background-color: #A3CCAB;
+    background-color:#FFF;
     border-radius: 13.5px;
     width: 97px;
     height: 22px;

@@ -27,14 +27,14 @@
 }
 
 .approveTaskData::-webkit-scrollbar-track {
-  background: #A3CCAB;
-  border: 3px solid #A3CCAB;
+  background: rgb(184, 209, 216);
+  border: 3px solid rgb(184, 209, 216);
   border-radius: 20px;
 }
 
 
 .approveTaskData::-webkit-scrollbar-thumb {
-  background-color: #053D38;
+  background-color: rgba(43, 140, 167, 1);
   border-radius: 20px;
-  border: 3px solid #053D38;
+  border: 3px solid rgba(43, 140, 167, 1);
 }

@@ -21,7 +21,7 @@ const Footer = () => {
           width: footerwidth, position: 'absolute',
           height: '55px',
           borderRadius: '0px 107.5px 107.5px 0px',
-          backgroundColor: '#34675C',
+          backgroundColor: 'rgba(43, 140, 167, 1)',
           display: 'block',
           display: 'inline-block',
           bottom: '0px',

@@ -2,7 +2,7 @@
   height: 180px;
   padding: 5px;
   width: 970px;
-  background-color: rgba(52, 103, 92, 1);
+  background-color: rgba(43, 140, 167, 1);
   border-radius: 107.5px 0px 0px 107.5px;
   top: 20px;
   right: 0px;
@@ -11,7 +11,7 @@
 }
 
 .avatarData h2 {
-  color: white;
+  color: #FFF;
   font-size: 18px;
   margin-top: 120px;
   margin-left: -38px;
@@ -19,9 +19,9 @@
 
 .avatarData img {
   position: relative;
-  left: 50px;
+  left: 65px;
   top: 13px;
-  border: 2px solid white;
+  border: 2px solid #FFF;
   border-radius: 50%;
 
 }
@@ -32,7 +32,7 @@
   position: relative;
   font-size: 30px;
   font-weight: 8px;
-  color: white;
+  color: #FFF;
   font-family: 'Inter';
 }
 
@@ -40,7 +40,7 @@
   margin-left: 80px;
   margin-top: 13px;
   position: relative;
-  color: white;
+  color: #FFF;
   font-family: 'Inter';
   font-size: 17px;
 
@@ -60,7 +60,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  color: #A3CCAB;
+  color: #FFF;
 }
 
 .avatarDataImg {
