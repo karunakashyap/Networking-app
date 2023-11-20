@@ -1,0 +1,13 @@
+.signIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.signIcon img {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid rgb(199, 194, 194);
+    margin: 8px;
+
+}

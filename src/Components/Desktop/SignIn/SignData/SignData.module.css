@@ -1,0 +1,35 @@
+.inputData {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.inputData h1 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 20px;
+}
+
+.userData h1 {
+    margin-right: 205px;
+}
+
+.inputData input {
+    width: 315px;
+    height: 45px;
+    flex-shrink: 0;
+    fill: #EDEDED;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.forgetPassword h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
