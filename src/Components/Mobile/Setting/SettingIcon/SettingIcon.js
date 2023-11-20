@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SettingIcon.module.css'
 
-const SettingIcon = () => {
+const SettingIcon = ({ logoutImage, logoutColor, showLogoutPopup }) => {
     return (
         <div>
             <div className={styles.allSettingIcon}>
@@ -15,7 +15,7 @@ const SettingIcon = () => {
                         </li>
                         <li>
                             <div className="grid grid-cols-2 gap-1 w-36">
-                                <div className="..." style={{marginLeft:'-5px'}}><img src='/privacy icons blue.svg' width={34} height={33}></img></div>
+                                <div className="..." style={{ marginLeft: '-5px' }}><img src='/privacy icons blue.svg' width={34} height={33}></img></div>
                                 <div className="..." ><h1>Privacy</h1></div>
                             </div>
                         </li>                        <li>
@@ -30,8 +30,8 @@ const SettingIcon = () => {
                             </div>
                         </li>                        <li>
                             <div className="grid grid-cols-2 gap-1 w-36">
-                                <div className="..." ><img src='/logout blue.svg' width={34} height={33}></img></div>
-                                <div className="..." style={{ color: '#2B8CA7', fontSize: '16px', fontWeight: '400' }}><h2>Log Out</h2></div>
+                                <div className="..." ><img src={logoutImage} width={34} height={33}></img></div>
+                                <div className="..." style={{ color: logoutColor, fontSize: '16px', fontWeight: '400' }} onClick={showLogoutPopup}><h2>Log Out</h2></div>
                             </div>
                         </li>
                     </div>
