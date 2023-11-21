@@ -9,6 +9,6 @@
 
 .alldata {
     background-image: url('/Mac_homescreen\ \(1\).svg');
-    object-fit: cover;
-    background-repeat: repeat;
+    background-size: cover;
+
 }
