@@ -19,7 +19,12 @@
     font-weight: 700;
     line-height: normal;
 }
-
+.loaderTime p{
+    margin-top: -6px;
+    color: #dbd5d5;
+    font-size: 14px;
+    font-weight: 700;
+}
 .resendBtn {
     color: #FFF;
     font-size: 14px;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React,{useState, useEffect} from 'react';
 import OTPMobileScreen from './../Components/Mobile/OTP/OTP';
 import OTPDeskTopScreen from '../Components/Desktop/OTP/OTP';
 import Globalstyle from './../app/Globalstyle'
@@ -17,10 +17,12 @@ const OTP = () => {
   }, []);
   return (
     <div>
-      <Globalstyle></Globalstyle>
-      {isDesktop ?
+        <Globalstyle></Globalstyle>
+        {isDesktop?
         <OTPDeskTopScreen></OTPDeskTopScreen>
-        : <OTPMobileScreen></OTPMobileScreen>}
+        :<OTPMobileScreen></OTPMobileScreen>}
+       
+      
     </div>
   )
 }

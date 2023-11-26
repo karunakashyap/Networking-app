@@ -1,10 +1,4 @@
-.allSelectUserData{
-    background-image: url('/Mac_homescreen\ \(1\).svg');
-    background-size: cover;
-
- }
-.user
-{
+.allUserData {
     width: 420px;
     height: 630px;
     flex-shrink: 0;
@@ -15,4 +9,9 @@
     margin-right: 380px;
     position: relative;
     left: 350px;
+}
+
+.allCredentialData {
+    background-image: url('/Mac_homescreen\ \(1\).svg');
+    background-size: cover;
 }

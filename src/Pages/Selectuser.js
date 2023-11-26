@@ -1,15 +1,15 @@
 import React from 'react'
-import SelectUser from '../Components/Desktop/SelectUser/SelectUser';
-import Globalstyle from '.././app/Globalstyle'
+import SelectUserScreen from '../Components/Desktop/SelectUser/SelectUser'
+import GlobalStyles from '../app/Globalstyle'
 
-const Selectuser = () => {
+const selectuser = () => {
   return (
     <div>
-        <Globalstyle/>
-        <SelectUser/>
+      <GlobalStyles/>
+      <SelectUserScreen/>
       
     </div>
   )
 }
 
-export default Selectuser
+export default selectuser

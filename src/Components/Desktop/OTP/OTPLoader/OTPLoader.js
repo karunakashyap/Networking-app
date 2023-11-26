@@ -13,7 +13,7 @@ const OTPLoader = () => {
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
         <div className={styles.loader}>
-          <div>{counter === 0 ? (<div className={styles.resendBtn}><button>Resend</button></div>) : (<div className={styles.loaderTime}>{counter}</div>)}</div>
+          <div>{counter === 0 ? (<div className={styles.resendBtn}><button>Resend</button></div>) : (<div className={styles.loaderTime}>{counter}<p>Sec</p></div>)}</div>
         </div>
       </div>
     </div>

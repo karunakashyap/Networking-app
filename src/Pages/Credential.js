@@ -18,7 +18,8 @@ const Credential = () => {
   return (
     <div>
       <Globalstyle />
-      {isDesktop ? <CredentialDesktop /> :
+      {isDesktop ? 
+      <CredentialDesktop /> :
         <CredentialMobile />
       }
     </div>

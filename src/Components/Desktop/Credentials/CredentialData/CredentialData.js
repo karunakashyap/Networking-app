@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CredentialData.module.css'
-
-const CredentialData = () => {
+import NextButton from '../../NextButton/NextButton';
+const CredentialData = ({existTags}) => {
     return (
         <div>
             <div className={styles.allCredentialData}>
@@ -22,16 +22,18 @@ const CredentialData = () => {
                         </div>
                     </div>
                     <div className={styles.userData}>
-                        <h1 style={{marginLeft:'15px'}}>Date of Birth</h1>
+                        <h1 style={{ marginLeft: '15px' }}>Date of Birth</h1>
                         <div><input type='date'></input></div>
                     </div>
                     <div className={styles.userData}>
-                        <h1 style={{marginLeft:'-5px'}}>Location</h1>
+                        <h1 style={{ marginLeft: '-5px' }}>Location</h1>
                         <div><input type='text'></input></div>
                     </div>
                 </div>
             </div>
             <p className={styles.acountHeading}>Already have an account?</p>
+           
+           
         </div>
     )
 }
