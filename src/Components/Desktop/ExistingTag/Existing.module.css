@@ -1,0 +1,17 @@
+.allUserData {
+    width: 420px;
+    height: 630px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #2B8CA7;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 380px;
+    position: relative;
+    left: 350px;
+}
+
+.allCredentialData {
+    background-image: url('/Mac_homescreen\ \(1\).svg');
+    background-size: cover;
+}
