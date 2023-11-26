@@ -1,0 +1,18 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #238aa4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.splashContainer {
+    max-width: 600px; 
+    text-align: center;
+}
+
+.image {
+    border-radius: 8px; 
+}
