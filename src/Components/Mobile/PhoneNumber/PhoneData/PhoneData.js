@@ -9,7 +9,7 @@ const PhoneData = (props) => {
 
         </div>
         <div className={styles.inputLink}>
-            <input text='number'></input>
+            <input text='text'  required></input>
 
         </div>
     </div>
