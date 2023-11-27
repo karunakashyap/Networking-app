@@ -42,7 +42,7 @@ const ExistingTag = () => {
         setSelectedTags(tags)
     }
     const router = useRouter();
-    const [tagText, settagText] = useState('');
+    const [tagText, settagText] = useState('#2B8CA7');
     const [tagCheckBox, setTextCheckBox] = useState('/check-box-yellow.svg')
     const [otpText, setotpText] = useState('');
     const [otpCheckBox, setotpCheckBox] = useState('/check-box-gray.svg');

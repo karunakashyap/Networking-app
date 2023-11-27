@@ -7,11 +7,11 @@ import styles from './SelectUser.module.css';
 import SignUpSidebar from '../SignUpSidebar/SignUpSidebar';
 const SelectUser = () => {
     const router = useRouter();
-    const [tagText, settagText] = useState('');
+    const [tagText, settagText] = useState('#2B8CA7');
     const [tagCheckBox, setTextCheckBox] = useState('/check-box-yellow.svg')
-    const [otpText, setotpText] = useState('');
+    const [otpText, setotpText] = useState('#2B8CA7');
     const [otpCheckBox, setotpCheckBox] = useState('/check-box-yellow.svg');
-    const [passwordText, setpasswordText]= useState('');
+    const [passwordText, setpasswordText]= useState('#2B8CA7');
     const [passwordCheckBox, setpasswordCheckBox] = useState('/check-box-yellow.svg')
     const [password, setPassword] = useState(false);
     const passwordScreen = () => {

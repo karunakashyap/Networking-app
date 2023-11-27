@@ -8,9 +8,9 @@ import styles from './OTP.module.css'
 import SelectUser from '../SelectUser/SelectUser';
 const OTP = () => {
     const router = useRouter();
-    const [tagText, settagText] = useState('');
+    const [tagText, settagText] = useState('#2B8CA7');
     const [tagCheckBox, setTextCheckBox] = useState('/check-box-yellow.svg')
-    const [otpText, setotpText] = useState('');
+    const [otpText, setotpText] = useState('#2B8CA7');
     const [otpCheckBox, setotpCheckBox] = useState('/check-box-yellow.svg');
     const [passwordText, setpasswordText]= useState('');
     const [passwordCheckBox, setpasswordCheckBox] = useState('/check-box-gray.svg')

@@ -5,11 +5,11 @@ import NextButton from '../NextButton/NextButton';
 import PasswordData from './PasswordData/PasswordData';
 
 const NewPassword = () => {
-  const [tagText, settagText] = useState('');
+  const [tagText, settagText] = useState('#2B8CA7');
   const [tagCheckBox, setTextCheckBox] = useState('/check-box-yellow.svg')
-  const [otpText, setotpText] = useState('');
+  const [otpText, setotpText] = useState('#2B8CA7');
   const [otpCheckBox, setotpCheckBox] = useState('/check-box-yellow.svg');
-  const [passwordText, setpasswordText] = useState('');
+  const [passwordText, setpasswordText] = useState('#2B8CA7');
   const [passwordCheckBox, setpasswordCheckBox] = useState('/check-box-yellow.svg')
   return (
     <div style={{ display: 'flex' }} className={styles.allPasswordData}>
