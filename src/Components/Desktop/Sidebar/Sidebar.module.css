@@ -1,11 +1,12 @@
 .sidebar {
   height: 678px;
-  width: 320px;
+  /* width: 320px; */
   background-color: rgba(43, 140, 167, 1);
-  border-radius: 0px 75.5px 75.5px 0px;
-  position: absolute;
+  /* border-radius: 0px 75.5px 75.5px 0px; */
+  position: fixed;
   top: 0px;
   left: 0px;
+  transition: width 1s, height 1s;
 }
 
 .sidebarHeading {
@@ -22,8 +23,14 @@
   color: #FFF;
 }
 
-.sidebarMenu p {
-  margin-top: 30px;
+/* .sidebarMenu p {
+  margin-top: 20px;
+  font-size: 16px;
+} */
+.sidebarText {
+  margin-top: 20px;
+  font-size: 16px;
+  display: block;
 }
 
 .allMenu {
@@ -32,8 +39,22 @@
 
 }
 
-.sidebarMenu img {
+.sidebarTextHide {
+  display: none;
+}
+
+/* .sidebarMenu img {
+  position: relative;
+ left: 170px;
+  bottom: 20px; 
+}*/
+.sidebarIcon {
   position: relative;
   left: 170px;
   bottom: 20px;
+}
+.sidebarIconHide{
+  /* left: 0px; */
+  margin-top: 50px;
+
 }

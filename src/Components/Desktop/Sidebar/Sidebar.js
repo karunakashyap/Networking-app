@@ -1,56 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Sidebar.module.css'
 import Image from 'next/image';
+import SettingSidebar from '../SettingSidebar/SettingSidebar';
 const Sidebar = () => {
-    console.log(styles)
+    const [sidebarborderRadius,setsidebarborderRadius]=useState('0px 75.5px 75.5px 0px');
+    const [sidebarWidth,setsidebarWidth]=useState('320px');
+    const [sidebarText,setSidebarText]=useState(styles.sidebarText)
+    const [sidebarIcon,setSidebarIcon]=useState(styles.sidebarIcon);
+    const [settingSidebar,setsettingSidebar]=useState(false)
+
+
+    const showSetting=()=>{
+        setsidebarWidth('100px')
+        setsidebarborderRadius('0px 0px 0px 0px');
+        setSidebarText(styles.sidebarTextHide)
+        setSidebarIcon(styles.sidebarIconHide)
+        setsettingSidebar(true)
+    }
     return (
         <div>
-            <div className={styles.sidebar}>
+            <div >
+            <div className={styles.sidebar} style={{width:sidebarWidth,borderRadius:sidebarborderRadius}} >
                 <h1 className={styles.sidebarHeading}>
-                    My Network
+                    <p className={sidebarText}>My Network</p>
+                    
                 </h1>
                 <div className={styles.allMenu}>
                     <div className={styles.sidebarMenu}>
-                        <p>Notifications</p>
-                        <Image src='/bell-icon.svg' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>Notifications</p>
+                        <Image className={sidebarIcon} src='/bell-gray-icon.svg' width={20} height={20} alt='' ></Image>
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>Create Task</p>
-                        <Image src='/create icon (1).svg' width={18} height={18} alt=''></Image>
+                        <p className={sidebarText}>Create Task</p>
+                        <Image className={sidebarIcon} src='/plus-create-gray.svg' width={22} height={22} alt='' ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>My Points</p>
-                        <Image src='/dollar-icon3.svg' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>Chats</p>
+                        <Image className={sidebarIcon} src='/chat-gray-icon.svg' width={22} height={22} alt='' ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>My Tasks</p>
-                        <Image src='/bell-icon.svg' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>All Tasks</p>
+                        <Image className={sidebarIcon} src='/create-report-gray.svg' width={20} height={20} alt='' ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>Members</p>
-                        <Image src='/group-icon.svg' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>Members</p>
+                        <Image className={sidebarIcon} src='/group-member-gray.svg' width={22} height={22} alt='' ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>Setting</p>
-                        <Image src='/setting-icon.png' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>Setting</p>
+                        <Image className={sidebarIcon} src='/settings-icon-gray.svg' width={20} height={20} alt='' onClick={showSetting} ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>Search</p>
-                        <Image src='/search-icon.svg' width={15} height={15} alt=''></Image>
+                        <p className={sidebarText}>Search</p>
+                        <Image className={sidebarIcon} src='/search-icon-gray.svg' width={24} height={24} alt='' ></Image>
 
                     </div>
                     <div className={styles.sidebarMenu}>
-                        <p>Invite</p>
+                        <p className={sidebarText}>Invite</p>
 
-                        <Image src='/invite-icon.png' width={18} height={18} styles={{ position: 'absolute', top: '565px', left: '228px' }} alt=''></Image>
+                        <Image className={sidebarIcon} src='/invite-icon-gray.svg' width={24} height={24}  alt=''></Image>
                     </div>
-                    <div style={{ backgroundColor: ' #F26800', width: '40px', height: '40px', marginLeft: '220px', marginTop: '-42px', borderRadius: '50px' }}>
-                    </div>
+                    {settingSidebar && <SettingSidebar/>}
 
 
 
@@ -58,6 +73,8 @@ const Sidebar = () => {
                 </div>
 
 
+            </div>
+                           
 
             </div>
 
