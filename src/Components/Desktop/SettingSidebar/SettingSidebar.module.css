@@ -3,9 +3,8 @@
     border: 2px solid #D9D9D9;
     height: 660px;
     width: 310px;
-    background: #FFF;
+    background: #b3b0b0;
     margin-left: 125px;
-    /* margin-top: -633px; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -37,10 +36,12 @@
     margin-top: 32px;
     margin-left: 27px;
 }
-.settingmenu{
+
+.settingmenu {
     margin-top: 39px;
-    margin-left: 43px;
+    margin-left: 27px;
 }
+
 .settingmenu ul li {
     display: flex;
     margin-top: 20px;
@@ -52,5 +53,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 14px;
+    margin-left: 20px;
 }

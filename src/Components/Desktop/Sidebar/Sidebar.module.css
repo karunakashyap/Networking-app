@@ -1,8 +1,6 @@
 .sidebar {
   height: 678px;
-  /* width: 320px; */
   background-color: rgba(43, 140, 167, 1);
-  /* border-radius: 0px 75.5px 75.5px 0px; */
   position: fixed;
   top: 0px;
   left: 0px;
@@ -13,7 +11,7 @@
   color: #FFF;
   font-size: 20px;
   position: relative;
-  top: 40px;
+  top: 30px;
   left: 44px;
   font-family: 'Inter';
 }
@@ -23,10 +21,6 @@
   color: #FFF;
 }
 
-/* .sidebarMenu p {
-  margin-top: 20px;
-  font-size: 16px;
-} */
 .sidebarText {
   margin-top: 20px;
   font-size: 16px;
@@ -34,7 +28,7 @@
 }
 
 .allMenu {
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: -17px;
 
 }
@@ -43,18 +37,13 @@
   display: none;
 }
 
-/* .sidebarMenu img {
-  position: relative;
- left: 170px;
-  bottom: 20px; 
-}*/
 .sidebarIcon {
   position: relative;
   left: 170px;
-  bottom: 20px;
+  bottom: 26px;
 }
-.sidebarIconHide{
-  /* left: 0px; */
-  margin-top: 50px;
+
+.sidebarIconHide {
+  margin-top: 40px;
 
 }
