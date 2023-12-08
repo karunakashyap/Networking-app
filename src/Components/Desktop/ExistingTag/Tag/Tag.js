@@ -4,9 +4,9 @@ const Tag = (props) => {
   return (
     <div>
       <li style={{ float: 'left' }} className={styles.taglist} onClick={() => { props.remove(props.i) }}>
-            <p className={styles.tag} ><span style={{marginLeft:'3px',float:'left'}}>{props.text}</span>
+            <p className={styles.tag} ><span style={{marginLeft:'9px',float:'left'}}>{props.text}</span>
                 <img  width={25} height={25} src='/cancel Icon.svg' style={{
-                  marginLeft:'3px'
+                  marginLeft:'2px'
                 }}></img>
             </p>
         </li>
