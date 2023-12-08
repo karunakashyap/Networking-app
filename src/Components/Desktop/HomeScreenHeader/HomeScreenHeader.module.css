@@ -10,65 +10,115 @@
   display: flex;
 }
 
-.avatarData h2 {
+.userData h2 {
   color: #FFF;
-  font-size: 18px;
-  margin-top: 120px;
-  margin-left: -38px;
+  font-size: 24px;
+  margin-top: -12px;
+  /* margin-left: -48px; */
+  /* margin-left: 65px;
+  margin-top: 84px;
+  width: 100px; */
+  margin-left: 4px;
+
 }
 
-.avatarData img {
+.avatarDataImg img {
   position: relative;
-  left: 65px;
-  top: 13px;
-  border: 2px solid #FFF;
+  left: 42px;
+  top: 24px;
   border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  
+
+
 
 }
 
-.avatarData p {
-  margin-left: 350px;
+.userData p {
+  /* margin-left: 350px;
   margin-top: -100px;
-  position: relative;
-  font-size: 30px;
-  font-weight: 8px;
+  position: relative; */
+  font-size: 12px;
+  font-weight: 400px;
   color: #FFF;
-  font-family: 'Inter';
 }
-
-.avatarData pre {
-  margin-left: 80px;
-  margin-top: 13px;
+.userData h1 {
+  /* margin-top: 13px; */
   position: relative;
   color: #FFF;
-  font-family: 'Inter';
-  font-size: 17px;
+  font-size: 16px;
+  /* margin: 10px; */
 
 }
 
-.allButton {
-  margin-left: -575px;
-  margin-top: 120px;
-}
 
-.avatarData span {
+.userData p {
 
-  font-family: 'Inter';
-  position: relative;
-  top: -60px;
-  left: -5px;
-  font-style: normal;
+  /* position: relative; */
+  /* top: -10px;
+  left: 10px; */
+
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
   color: #FFF;
 }
 
 .avatarDataImg {
   height: 260px;
-  width: 100px;
+  /* width: 100px; */
 }
 
-.allSlider {
+
+.userData {
+  margin-left: 124px;
+  margin-top: 10px;
+  height: 149px;
+  /* padding: 5px; */
+  
+
+}
+
+.editIcon {
+  position: relative;
+  right: 95px;
+  top: 55px;
+}
+
+.userData img {
+  margin-left: 605px;
   margin-top: -30px;
-  margin-left: 37px;
+}
+
+.cameraImage {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  position: relative;
+  /* top: 75px;
+  right: 30px; */
+  left: 40px;
+  top: -20px;
+  /* margin-right: -10px; */
+  border-radius: 50%;
+}
+
+.cameraImage input[type="file"] {
+  width: 30px;
+  height: 40px;
+  opacity: 0;
+  position: relative;
+  /* top: -115px; */
+  left: 4px;
+  top: -24px;
+
+}
+
+.cameraImage img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+  /* margin-top: -70px; */
+  margin-left: -37px;
 }

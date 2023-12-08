@@ -1,17 +1,17 @@
 .approveTaskData h2 {
   color: #053D38;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 30px;
   font-size: normal;
 
 }
 
 .approveTaskData {
-  margin-left: 900px;
-  margin-top: -159px;
+  margin-left: 500px;
+  margin-top: 59px;
   overflow: auto;
   width: 320px;
-  height: 160px;
+  height: 170px;
 }
 
 .approveTaskData li {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 
-const Avatar = () => {
+const Avatar = ({selectedImage}) => {
     const [profileHeight, setProfileHeight] = useState(0);
     const [profileWidth, setProfileWidth] = useState(0);
   
@@ -24,7 +24,7 @@ const Avatar = () => {
     }, []);
   return (
     <div>
-        <img src="https://placehold.co/300x300" alt="not show" height={profileHeight} width={profileWidth}>
+        <img src={selectedImage} alt="not show" height={profileHeight} width={profileWidth}>
         </img>
       
     </div>

@@ -11,10 +11,12 @@ const DesktopHomeScreen = () => {
         <div>
             <HomeScreenHeader />
             <Sidebar></Sidebar>
+            <div style={{marginTop:'-40px'}}>
             <Todo></Todo>
             <Approve_task></Approve_task>
             <Assignable></Assignable>
             <Point_task></Point_task>
+            </div>
 
         </div>
     )
