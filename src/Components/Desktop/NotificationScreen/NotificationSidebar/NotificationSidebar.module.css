@@ -1,9 +1,7 @@
-.sidebarSetting {
+.notificationSidebar {
     border-radius: 20px;
     border: 2px solid #D9D9D9;
-    /* height: 660px; */
     width: 310px;
-    /* background: #c7bebe; */
     margin-left: 125px;
     height: 100%;
     position: absolute;
@@ -11,25 +9,21 @@
     bottom: 0;
     margin: 10px;
     left: 100px;
-
     animation: changeHeight 1s ease-in-out forwards
 }
-
 @keyframes changeHeight {
     0% {
         max-height: 0px;
         opacity: 0;
     }
-
     100% {
         max-height: 660px;
         opacity: 1;
     }
 }
 
-.settingHeading h1 {
+.heading h1 {
     color: #2B8CA7;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -38,21 +32,28 @@
     margin-left: 27px;
 }
 
-.settingmenu {
-    margin-top: 39px;
+.alldata {
+    margin-top: 36px;
     margin-left: 27px;
+    list-style: none;
 }
 
-.settingmenu ul li {
+.alldata ul li {
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+.alldata ul li img{
+
+    width: 30px;
+    height: 30px;
 }
 
-.settingmenu ul li p {
+.alldata ul li p {
     color: #14140F;
-    font-size: 20px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: 20px;
+    width: 218px;
 }

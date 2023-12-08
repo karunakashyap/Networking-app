@@ -1,5 +1,5 @@
 .sidebar {
-  height: 678px;
+  height: 100%;
   background-color: rgba(43, 140, 167, 1);
   position: fixed;
   top: 0px;
@@ -7,7 +7,7 @@
   transition: width 1s, height 1s;
 }
 
-.sidebarHeading {
+.sidebarHeading p{
   color: #FFF;
   font-size: 20px;
   position: relative;
@@ -20,11 +20,14 @@
   margin-left: 60px;
   color: #FFF;
 }
-
+.sidebarMenu img{
+  cursor: pointer;
+}
 .sidebarText {
   margin-top: 20px;
   font-size: 16px;
   display: block;
+  cursor: pointer;
 }
 
 .allMenu {
@@ -44,6 +47,7 @@
 }
 
 .sidebarIconHide {
-  margin-top: 40px;
+  margin-top: 45px;
+  cursor: pointer;
 
 }

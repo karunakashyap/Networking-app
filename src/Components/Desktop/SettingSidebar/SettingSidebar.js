@@ -12,7 +12,7 @@ const SettingSidebar = () => {
         setLogoutImage('/logout-yellow-icon.svg');
         setLogoutColor('#C19B47')
         setOpacity('0')
-        setBackground('#d9d9d99a')
+        setBackground('#c7bebe')
     }
     const cancelButton = () => {
         setOpacity('1')
