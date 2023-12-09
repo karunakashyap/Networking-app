@@ -14,22 +14,22 @@ const Assignable = () => {
                 <div className={styles.assignPointImage}>
                     <div className="grid grid-cols-5 w-72">
 
-                        <div className="... "> <img src='/video-icon-blue.svg' alt=''></img></div>
-                        <div className="... "><img src='/photo-icon-blue.svg' alt=''></img></div>
-                        <div className="... "><img src='/vector-icon-blue.svg' alt=''></img></div>
-                        <div className="... "><img src='/report-icon-blue.svg' alt=''></img></div>
+                        <div className="... "> <img src='/video-icon-blue.svg' alt=''></img><div  className={styles.point}>100<img src='/dollar-icon1.svg' alt=''></img></div></div>
+                        <div className="... "><img src='/photo-icon-blue.svg' alt=''></img><div  className={styles.point}>100<img src='/dollar-icon1.svg' alt=''></img></div></div>
+                        <div className="... "><img src='/vector-icon-blue.svg' alt=''></img><div style={{marginTop:'8px'}}  className={styles.point}>100<img src='/dollar-icon1.svg' alt=''></img></div></div>
+                        <div className="... "><img src='/report-icon-blue.svg' alt=''></img><div  className={styles.point}>100<img src='/dollar-icon1.svg' alt=''></img></div></div>
                         <div className="... " style={{ marginTop: '12px',position:'relative',left:'20px' }}><img src='/forwar-icon-blue.svg' alt=''></img></div>
                     </div>
 
                     <div className={styles.point}>
 
 
-                        <div className="grid grid-cols-5 w-72">
+                        {/* <div className="grid grid-cols-5 w-72">
                             <div className="...">100<img src='/dollar-icon1.svg' alt=''></img></div>
                             <div className="..." style={{marginLeft:'5px'}}>100<img src='/dollar-icon1.svg' alt=''></img></div>
                             <div className="...">100<img src='/dollar-icon1.svg' alt=''></img></div>
                             <div className="..." style={{marginLeft:'5px'}}>100<img src='/dollar-icon1.svg' alt=''></img></div>
-                        </div>
+                        </div> */}
                     </div>
 
 

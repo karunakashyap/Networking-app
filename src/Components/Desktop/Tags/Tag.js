@@ -9,6 +9,16 @@ const Tag = ({ slides, itemsPerRow ,blueCancelIcon}) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const totalSlides = Math.ceil(slides.length / itemsPerRow);
     const totalItems = slides.length;
+    const [items, setItems] = useState(slides);
+    
+
+    const handleRemoveItem = (index) => {
+        const newArray = [...items];
+       
+        newArray.splice(index, 1);
+        console.log(newArray)
+        setItems(newArray);
+      };
 
     const goToNextSlide = () => {
         setCurrentSlide((prevSlide) => {
@@ -28,12 +38,12 @@ const Tag = ({ slides, itemsPerRow ,blueCancelIcon}) => {
     const renderSlides = () => {
         const startIndex = ((currentSlide * itemsPerRow) % totalItems + itemsPerRow) > totalItems ? totalItems - itemsPerRow : (currentSlide * itemsPerRow) % totalItems;
         const endIndex = startIndex + itemsPerRow;
-        return slides.slice(startIndex, endIndex).map((slide, index) => (
+        return items.slice(startIndex, endIndex).map((slide, index) => (
             <div className={styles.sliderSlide}>
             <div key={index} >
                 {slide}
             </div>
-            {blueCancelIcon && <div style={{position:'relative',left:'5px'}}><img src='/cancel-blue-icon.svg' ></img></div>}
+            {blueCancelIcon && <div style={{position:'relative',left:'5px'}}><img src='/cancel-blue-icon.svg' onClick={() => handleRemoveItem(index)}></img></div>}
             </div>
         ));
     };

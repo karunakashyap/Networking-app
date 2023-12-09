@@ -77,7 +77,7 @@ const HomeScreenHeader = () => {
         </div>
             
       </div>
-      <div style={{position:'relative',left:tagLeft,top:'150px',width:'700px'}} onMouseOver={editProfile} >
+      <div style={{position:'relative',left:tagLeft,top:'165px',width:'700px'}} onMouseOver={editProfile} >
           <TagHome cancelIcon={cancelIcon}/>
           </div>  
     </div>

@@ -1,6 +1,5 @@
 .slider {
     width: 100%;
-    /* background-color: rgba(43, 140, 167, 1); */
     overflow: hidden;
 }
 
@@ -13,8 +12,6 @@
 
 .sliderData {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* width: 100%; */
 }
 
 
@@ -25,11 +22,8 @@
     position: relative;
     font-size: 12px;
     padding: 10px;
-    /* padding: 10px 14px; */
-    /* margin: 10px; */
     background-color:#FFF;
     border-radius: 13.5px;
-    /* width: 97px; */
     height: 22px;
     align-items: center;
     justify-content: center;

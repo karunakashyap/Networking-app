@@ -37,6 +37,7 @@ const Mobile = () => {
     const editTask = () => {
         setShowTodoScreen(true)
     }
+    const [selectedImage, setSelectedImage] = useState('https://placehold.co/300x300');
     return (
         <>
             <div>
@@ -64,7 +65,7 @@ const Mobile = () => {
                                             <div className={styles.avatarDataImg}>
                                                 <div className="grid grid-cols-2">
                                                     <div className="...">
-                                                        <Avatar />
+                                                        <Avatar selectedImage={'https://placehold.co/300x300'}/>
                                                     </div>
                                                     <div className="...">
                                                         <h2>Kapil <br></br> Sharma</h2>

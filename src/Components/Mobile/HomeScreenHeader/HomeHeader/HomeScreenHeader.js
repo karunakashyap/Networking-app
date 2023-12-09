@@ -38,7 +38,7 @@ const HomeScreenHeader = (props) => {
             <div className={styles.avatarDataImg}>
               <div className="grid grid-cols-2 gap-4">
                 <div className="...">
-                  <Avatar />
+                  <Avatar   selectedImage={'https://placehold.co/300x300'}/>
                 </div>
                 <div className="..." onClick={props.onClick}>
                   <h2>Kapil <br></br> Sharma</h2>

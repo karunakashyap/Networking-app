@@ -3,15 +3,9 @@
      font-size: 30px;
      color: #053D38;
  }
-
- .point img {
-     margin-left: 93px;
-     margin-top: -20px;
- }
-
- .point p:first-child+p {
-     margin-top: 4px;
- }
+.point{
+    margin-top: -5px;
+}
 
  .marblePointImage {
 
@@ -28,7 +22,6 @@
 
      margin-left: -3px;
      font-size: 14px;
-     margin-top: -8px;
 
  }
 
