@@ -1,0 +1,63 @@
+.chatMemberProfile {
+    display: flex;
+    /* border: 2px solid rgba(193, 155, 71, 1); */
+    border-top: 1px solid rgba(193, 155, 71, 1);
+    border-left: 1px solid rgba(193, 155, 71, 1);
+    border-bottom: 1px solid rgba(193, 155, 71, 1);
+    border-right: 1px solid rgba(193, 155, 71, 1);
+    padding: 5px;
+    /* height: 60px; */
+
+
+}
+
+.chatMemberProfile div {
+    margin-left: 10px;
+}
+
+.chatMemberName h1 {
+    color: #14140F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 120px;
+}
+
+.chatMemberName p {
+    color: #14140F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.unreadCount {
+    background-color: rgba(193, 155, 71, 1);
+    border-radius: 50px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+.unreadCount p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.chatUserImage {
+    position: relative;
+    right: 15px;
+}
+
+.chatMemberName {
+    position: relative;
+    right: 20px;
+}
+
+.chatMembers {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

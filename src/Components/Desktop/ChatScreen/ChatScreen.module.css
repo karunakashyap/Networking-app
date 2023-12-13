@@ -1,0 +1,30 @@
+.allChatScreenData {
+    border-radius: 20px;
+    border: 2px solid #D9D9D9;
+    width: 454px;
+    /* margin-left: 125px; */
+    height: 97%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 10px;
+    left: 445px;
+    background-color: white;
+    animation: changeHeight 1s ease-in-out forwards
+
+
+}
+@keyframes changeHeight {
+    0% {
+        max-height: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        max-height:100%;
+        opacity: 1;
+    }
+}
+
+
+  

@@ -1,0 +1,39 @@
+.chatHeader {
+    width: 450px;
+    height: 75px;
+    background-color: rgba(43, 140, 167, 1);
+    display: flex;
+    margin-top: 10px;
+}
+.chatHeader div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.userData h1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.threeDots{
+   position: absolute;
+   right: 0;
+  top: 16px;
+    
+}
+.userProfile{
+    margin-left: 30px;
+}
+.userProfile img{
+    margin-top: 2px;
+   
+}
+
+.userData p {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+.userData{
+    margin-left: 50px;
+}

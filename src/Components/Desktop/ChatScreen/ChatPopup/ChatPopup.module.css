@@ -1,0 +1,8 @@
+.allPopIcon {
+    position: fixed;
+    bottom: 60px;
+    margin-left: 12px;
+}
+.allPopIcon img {
+    margin-top: 10px;
+}
