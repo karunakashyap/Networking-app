@@ -1,0 +1,53 @@
+.sidebar {
+  height: 100%;
+  background-color: rgba(43, 140, 167, 1);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transition: width 1s, height 1s;
+}
+
+.sidebarHeading p{
+  color: #FFF;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  left: 44px;
+  font-family: 'Inter';
+}
+
+.sidebarMenu {
+  margin-left: 60px;
+  color: #FFF;
+}
+.sidebarMenu img{
+  cursor: pointer;
+}
+.sidebarText {
+  margin-top: 20px;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+}
+
+.allMenu {
+  margin-top: 70px;
+  margin-left: -17px;
+
+}
+
+.sidebarTextHide {
+  display: none;
+}
+
+.sidebarIcon {
+  position: relative;
+  left: 170px;
+  bottom: 26px;
+}
+
+.sidebarIconHide {
+  margin-top: 45px;
+  cursor: pointer;
+
+}

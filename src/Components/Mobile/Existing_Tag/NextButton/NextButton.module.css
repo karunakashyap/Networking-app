@@ -1,0 +1,28 @@
+.nextButton {
+    /* width: 400px; */
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #2B8CA7;
+    /* position: absolute;
+    margin-top:300px; */
+    /* margin-left: 70px; */
+    /* margin-left: 40px; */
+    margin: 20px;
+}
+
+ .nextButton button {
+   
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        /* margin: 40px; */
+        height: 27px;
+    
+ }

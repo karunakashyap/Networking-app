@@ -1,0 +1,33 @@
+ .pointTask h2 {
+     font-weight: 400;
+     font-size: 30px;
+     color: #053D38;
+ }
+.point{
+    margin-top: -5px;
+}
+
+ .marblePointImage {
+
+     margin-top: 10px;
+ }
+
+ .allpoints img {
+     margin-left: 26px;
+     margin-top: -19px;
+
+ }
+
+ .allpoints {
+
+     margin-left: -3px;
+     font-size: 14px;
+
+ }
+
+ .pointTask {
+     margin-left: 900px;
+     margin-top: 62px;
+     width: 400px;
+     height: 160px;
+ }

@@ -1,0 +1,89 @@
+.allLoaderData {
+    margin-top: 40px;
+}
+
+.loaderHeading {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.loaderTime {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.loaderTime p{
+    margin-top: -6px;
+    color: #dbd5d5;
+    font-size: 14px;
+    font-weight: 700;
+}
+.resendBtn {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.secText {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.loader::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #ede;
+    animation: prixClipFix 10s linear;
+    width: 104px;
+    height: 104px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.loader {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    content: "";
+    box-sizing: border-box;
+    position: relative;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #357485;
+    width: 104px;
+    height: 104px;
+}
+
+@keyframes prixClipFix {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+    }
+
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+    }
+
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+    }
+
+    75% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+    }
+
+    100% {
+        clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+    }
+}

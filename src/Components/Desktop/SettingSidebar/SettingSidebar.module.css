@@ -1,0 +1,56 @@
+.sidebarSetting {
+    border-radius: 20px;
+    border: 2px solid #D9D9D9;
+    width: 310px;
+    margin-left: 125px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 10px;
+    left: 100px;
+
+    animation: changeHeight 1s ease-in-out forwards
+}
+
+@keyframes changeHeight {
+    0% {
+        max-height: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        max-height: 660px;
+        opacity: 1;
+    }
+}
+
+.settingHeading h1 {
+    color: #2B8CA7;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 27px;
+}
+
+.settingmenu {
+    margin-top: 39px;
+    margin-left: 27px;
+}
+
+.settingmenu ul li {
+    display: flex;
+    margin-top: 20px;
+}
+
+.settingmenu ul li p {
+    color: #14140F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}

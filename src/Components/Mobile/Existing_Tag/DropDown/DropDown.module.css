@@ -1,0 +1,59 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.SuggDropDownInput {
+  width: 90%;
+}
+
+.SuggDropDownInput>input {
+  width: 100%;
+  border-radius: 50px;
+  background-color: #EDEDED;
+  height: 70px;
+  padding-left: 40px;
+  font-size: 16px;
+
+
+}
+
+
+
+.SuggDropDownInput img {
+
+  position: relative;
+  float: right;
+  margin-top: -50px;
+  left: -20px;
+}
+.allOptionRender {
+  border-radius: 10px;
+  height: 270px;
+  overflow-y: scroll;
+  position: relative;
+
+}
+
+.dropdownOption div {
+  margin: 20px;
+  color: #353D48;
+  height: 70px;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #EDEDED;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 50px;
+
+}
+
+.dropdownOption span {
+  top: 15px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.dropdownOption img {
+  margin-top: -21px;
+}

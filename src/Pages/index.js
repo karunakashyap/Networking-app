@@ -1,10 +1,9 @@
 import React from 'react';
-import HomeScreen from '../Components/HomeScreen';
-
+import HomeScreen from './HomeScreen';
 const index = () => {
   return (
     <div>
-        <HomeScreen />
+      <HomeScreen />
     </div>
   )
 }

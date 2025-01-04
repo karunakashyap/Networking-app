@@ -1,0 +1,35 @@
+.demo {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.demo div {
+  padding: 7px;
+  background-color: gainsboro;
+  border-radius: 50px;
+
+}
+
+.demo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.iconNames {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.iconNames p {
+  font-size: 14px;
+}

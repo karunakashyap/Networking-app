@@ -1,0 +1,42 @@
+.hideIcon {
+  display: none;
+}
+
+.tag {
+  float: left;
+  background: rgba(193, 155, 71, 1);
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.taglist {
+  background: rgba(193, 155, 71, 1);
+  float: left;
+  border-radius: 20px;
+  margin: 10px;
+}
+.taglist p {
+  
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-top: 6px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+}
+.tag {
+  
+  
+  border-radius: 20px;
+  color: #999;
+  height: 26px;
+  padding: 0 20px 0 23px;
+  margin: 0 10px 10px 0;
+  
+  text-decoration: none;
+}

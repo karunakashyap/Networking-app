@@ -1,0 +1,19 @@
+.profilePicture {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.userName {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.userName h1 {
+    color: #14140F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

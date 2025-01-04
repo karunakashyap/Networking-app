@@ -1,0 +1,16 @@
+.textBoxMessage input {
+    height: 35px;
+    width: 340px;
+    padding: 4px 34px 4px 15px;
+    border-radius: 30px;
+    background: #EDEDED;
+    font-size: 14px;
+    text-align: center;
+}
+
+.textBoxMessage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+ }

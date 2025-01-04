@@ -1,0 +1,37 @@
+.userChatHeader {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+   
+}
+.chatHeaderDiv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+
+    background-color: rgba(43, 140, 167, 1);
+  }
+  
+  .chatHeaderDiv ul li {
+    float: left;
+  }
+  
+  
+  .chatHeaderDiv li {
+    display: block;
+    color: white;
+    padding-top: 15px;
+  }
+  .chatHeaderDiv ul div li{
+    margin-left: 15px;
+  }
+  .memberNames div{
+    display: flex;
+  }
+  .members:hover{
+    text-decoration: underline;
+  }

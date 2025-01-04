@@ -1,0 +1,10 @@
+.receiveIcon {
+    padding: 10px;
+    background-color: gainsboro;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}

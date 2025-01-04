@@ -1,0 +1,104 @@
+ .showData {
+     display: block;
+
+ }
+
+ .hideData {
+     display: none;
+ }
+
+ .innerdiv {
+     width: 90%;
+     height: 100vh;
+     background-color: rgba(43, 140, 167, 1);
+     color: white;
+     padding: 10px;
+     box-sizing: border-box;
+     position: absolute;
+     right: 0px;
+     top:0px;
+     border-top-left-radius: 80px;
+     border-bottom-left-radius: 80px;
+     max-height: 10px;
+     transition: max-height 0.3s ease-in-out;
+     animation: changeHeight 2s ease-in-out forwards;
+     overflow: hidden;
+ }
+
+ .avatarData h2 {
+     color: white;
+     font-size: 20px;
+     position: relative;
+     margin-left: 50px;
+     margin-top: 50px;
+ }
+
+ .avatarData img {
+     position: relative;
+     left: 15px;
+     top: 15px;
+     border: 2px solid white;
+     border-radius: 50%;
+ }
+
+ .headerwidth {
+     width: 100%;
+ }
+
+ .animate {
+     animation: fadeIn 1s ease-in-out, changeHeight 1s ease-in-out forwards;
+ }
+
+ @keyframes fadeIn {
+     0% {
+         opacity: 0.30;
+     }
+
+     100% {
+         opacity: 1;
+     }
+ }
+
+ @keyframes changeHeight {
+     0% {
+         max-height: 250px;
+     }
+
+     100% {
+         max-height: 7695px;
+     }
+ }
+
+ .menulist {
+     width: 100%;
+     margin: 0;
+ }
+
+ .menuDiv {
+     margin: 0;
+     width: 100%;
+ }
+
+ .menuDiv div {
+     margin-left: 40px;
+ }
+
+ .menuDiv img {
+     float: right;
+     margin-top: -25px;
+     margin-right: 10px;
+     width: 25px;
+     height: 25px;
+
+ }
+
+ .menulist ul li {
+     margin-top: 30px;
+ }
+
+ .allListData li {
+     margin-top: 30px;
+     color: #D3D3D3;
+     font-size: 18px;
+     font-weight: 400;
+ }

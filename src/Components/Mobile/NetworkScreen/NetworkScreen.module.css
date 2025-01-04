@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100vh;
+    /* border-left: 2px solid #000; */
+   
+  }
+  
+  .content {
+    background-color: rgba(43, 140, 167, 1);
+    width: 90%; /* Adjust the width as needed */
+    height: 100%; /* Full height of container */
+    /* border: 2px solid #000; */
+    /* border-top: none; */
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-top: 20px;
+  }
+  .avatarData h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 47px;
+    margin-left: 30px;
+    width: 20px;
+  }
+  
+  .avatarData img {
+    /* position: relative;
+    left: 15px;
+    top: 15px; */
+    border-radius: 114px;
+    border: 1px solid #FFF;
+    margin-left: 30px;
+    margin-top: 16px;
+    
+  
+  }

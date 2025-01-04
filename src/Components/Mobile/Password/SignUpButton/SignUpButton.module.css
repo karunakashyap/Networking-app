@@ -1,0 +1,21 @@
+.signUp{
+    width: 315px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #2B8CA7;
+    margin: 50px;
+
+}
+.signUp button{
+    color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 130px;
+padding-top: 15px;
+}
+.allSignUpData{
+    margin-top: 450px;
+}

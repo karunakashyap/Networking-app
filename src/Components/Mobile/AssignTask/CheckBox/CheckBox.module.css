@@ -1,0 +1,10 @@
+.checkBox{
+    background-color: #C19B47;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    border-radius: 50%;
+}
+.checkBox img{
+    padding: 10px;
+}

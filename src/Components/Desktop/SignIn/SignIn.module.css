@@ -1,0 +1,14 @@
+.allSignInData {
+    width: 416px;
+    height: 556px;
+    border-radius: 20px;
+    background: #2B8CA7;
+    text-align: center;
+    align-items: center;
+}
+
+.alldata {
+    background-image: url('/Mac_homescreen\ \(1\).svg');
+    background-size: cover;
+
+}

@@ -1,0 +1,19 @@
+.tags div{
+   
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+   
+}
+.backArrow img{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}

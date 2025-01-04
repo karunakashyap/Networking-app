@@ -1,0 +1,49 @@
+.assignPoint {
+    width: 259px;
+    height: 70px;
+}
+
+.assignPoint h2 {
+    color: #053D38;
+    font-weight: 400;
+    font-size: 20px;
+    font-size: normal;
+}
+
+.assignPoint p:nth-child(2) {
+    color: #14140F;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+
+.assignPoint p:nth-child(3) {
+    color: #34675C;
+    font-size: 14px;
+
+}
+
+.assignPoint img {
+    margin-left: 88px;
+    margin-top: -19px;
+
+}
+
+.agginableData {
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.assignPointImage {
+    margin-top: 28px;
+
+}
+
+.allpoints {
+    margin-top: 10px;
+}
+
+.allpoints img {
+    margin-left: 27px;
+    margin-top: -18px;
+}

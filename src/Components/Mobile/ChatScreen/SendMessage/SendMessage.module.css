@@ -1,0 +1,8 @@
+.messageBox {
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background-color:rgba(211, 211, 211, 1);
+    height: auto;
+    float: right;
+    margin-top: 30px;
+}
