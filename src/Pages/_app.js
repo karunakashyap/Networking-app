@@ -1,13 +1,10 @@
 import '../app/globals.css';
-import './index';
+import './index'; // Import the index file here
+
 export default function MyApp({ Component, pageProps }) {
   return (
-   <div>
+    <>
       <Component {...pageProps} />
-      
-    
-
-    </div>
-
+    </>
   );
 }

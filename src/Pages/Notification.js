@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MobileNotificationScreen from '../Components/Mobile/Notification/NotificationScreen';
-import DesktopNotificationScreen from '../Components/Desktop/NotificationScreen/NotificationScreen';
+// import DesktopNotificationScreen from '../Components/Desktop/NotificationScreen/NotificationScreen';
 import GlobalStyles from '../app/Globalstyle';
 
 const Notification = () => {
@@ -19,11 +19,13 @@ const Notification = () => {
   return (
     <div>
       <GlobalStyles />
-      {isDesktop ? (
+      {/* {isDesktop ? (
         <DesktopNotificationScreen />
       ) : (
         <MobileNotificationScreen />
-      )}
+      )} */}
+              <MobileNotificationScreen />
+
     </div>
   );
 }
